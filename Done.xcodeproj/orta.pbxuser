@@ -14,7 +14,6 @@
 		activeTarget = 8D1107260486CEB800E47090 /* Done */;
 		addToTargets = (
 			8D1107260486CEB800E47090 /* Done */,
-			B55B6D1C103006E1001ED5D5 /* Done Windows */,
 		);
 		breakpoints = (
 			60080A4A110B607700A57455 /* BBAppSessionLoginState.h:31 */,
@@ -55,7 +54,7 @@
 					553,
 					60,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 				);
@@ -111,9 +110,31 @@
 			607B7922110E67E400E3DF02 /* PlistBookmark */ = 607B7922110E67E400E3DF02 /* PlistBookmark */;
 			607B7923110E67E400E3DF02 /* PBXTextBookmark */ = 607B7923110E67E400E3DF02 /* PBXTextBookmark */;
 			607B7924110E67E400E3DF02 /* PlistBookmark */ = 607B7924110E67E400E3DF02 /* PlistBookmark */;
+			607B7C78110E718300E3DF02 /* PlistBookmark */ = 607B7C78110E718300E3DF02 /* PlistBookmark */;
+			607B7C79110E718300E3DF02 /* PBXTextBookmark */ = 607B7C79110E718300E3DF02 /* PBXTextBookmark */;
+			607B7C7A110E718300E3DF02 /* PBXTextBookmark */ = 607B7C7A110E718300E3DF02 /* PBXTextBookmark */;
+			607B7C7B110E718300E3DF02 /* PBXTextBookmark */ = 607B7C7B110E718300E3DF02 /* PBXTextBookmark */;
+			607B7C7D110E718300E3DF02 /* PBXTextBookmark */ = 607B7C7D110E718300E3DF02 /* PBXTextBookmark */;
+			607B7C7F110E718300E3DF02 /* PlistBookmark */ = 607B7C7F110E718300E3DF02 /* PlistBookmark */;
+			607B7C80110E718300E3DF02 /* PBXTextBookmark */ = 607B7C80110E718300E3DF02 /* PBXTextBookmark */;
+			607B7C81110E718300E3DF02 /* PBXTextBookmark */ = 607B7C81110E718300E3DF02 /* PBXTextBookmark */;
+			607B7C82110E718300E3DF02 /* PBXTextBookmark */ = 607B7C82110E718300E3DF02 /* PBXTextBookmark */;
+			607B7C84110E718300E3DF02 /* PBXTextBookmark */ = 607B7C84110E718300E3DF02 /* PBXTextBookmark */;
+			607B7CDE110E752B00E3DF02 /* PBXTextBookmark */ = 607B7CDE110E752B00E3DF02 /* PBXTextBookmark */;
+			607B7CDF110E752B00E3DF02 /* PBXTextBookmark */ = 607B7CDF110E752B00E3DF02 /* PBXTextBookmark */;
+			607B7CE0110E752B00E3DF02 /* PBXTextBookmark */ = 607B7CE0110E752B00E3DF02 /* PBXTextBookmark */;
+			607B7CE1110E752B00E3DF02 /* PBXTextBookmark */ = 607B7CE1110E752B00E3DF02 /* PBXTextBookmark */;
+			607B7CEF110E754900E3DF02 /* PBXTextBookmark */ = 607B7CEF110E754900E3DF02 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 60240F8B110B5D6C0070FF46 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Done_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {492, 362}}";
+			sepNavSelRange = "{104, 28}";
+			sepNavVisRange = "{0, 140}";
 		};
 	};
 	60080A4A110B607700A57455 /* BBAppSessionLoginState.h:31 */ = {
@@ -128,8 +149,8 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 31;
-		modificationTime = 285958263.385828;
-		state = 1;
+		modificationTime = 286159215.030101;
+		state = 0;
 	};
 	60080A66110B647400A57455 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -206,6 +227,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = Done;
+		savedGlobals = {
+		};
 		sourceDirectories = (
 		);
 	};
@@ -567,6 +590,195 @@
 		rLen = 0;
 		rLoc = 2147483647;
 	};
+	607B7935110E6C8500E3DF02 /* README.markdown */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1446, 537}}";
+			sepNavSelRange = "{273, 0}";
+			sepNavVisRange = "{0, 273}";
+		};
+	};
+	607B7C78110E718300E3DF02 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIconFile,
+		);
+		name = /Users/orta/spiel/cocoa/Done/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	607B7C79110E718300E3DF02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B56FEB3B102CB1B4002996E7 /* DoingController.m */;
+		name = "DoingController.m: 57";
+		rLen = 0;
+		rLoc = 1794;
+		rType = 0;
+		vrLen = 1348;
+		vrLoc = 447;
+	};
+	607B7C7A110E718300E3DF02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 607B7935110E6C8500E3DF02 /* README.markdown */;
+		name = "README.markdown: 4";
+		rLen = 0;
+		rLoc = 273;
+		rType = 0;
+		vrLen = 273;
+		vrLoc = 0;
+	};
+	607B7C7B110E718300E3DF02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 607B7C7C110E718300E3DF02 /* CGBase.h */;
+		name = "CGBase.h: 76";
+		rLen = 23;
+		rLoc = 1619;
+		rType = 0;
+		vrLen = 933;
+		vrLoc = 905;
+	};
+	607B7C7C110E718300E3DF02 /* CGBase.h */ = {
+		isa = PBXFileReference;
+		name = CGBase.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGBase.h;
+		sourceTree = "<absolute>";
+	};
+	607B7C7D110E718300E3DF02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: expected '=', ',', ';', 'asm' or '__attribute__' before 'QDGetCGDirectDisplayID'";
+		fRef = 607B7C7E110E718300E3DF02 /* QuickdrawAPI.h */;
+		rLen = 1;
+		rLoc = 6519;
+		rType = 1;
+	};
+	607B7C7E110E718300E3DF02 /* QuickdrawAPI.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = QuickdrawAPI.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers/QuickdrawAPI.h;
+		sourceTree = "<absolute>";
+	};
+	607B7C7F110E718300E3DF02 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIconFile,
+		);
+		name = /Users/orta/spiel/cocoa/Done/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	607B7C80110E718300E3DF02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B56FEB3B102CB1B4002996E7 /* DoingController.m */;
+		name = "DoingController.m: 57";
+		rLen = 0;
+		rLoc = 1794;
+		rType = 0;
+		vrLen = 1348;
+		vrLoc = 447;
+	};
+	607B7C81110E718300E3DF02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 607B7935110E6C8500E3DF02 /* README.markdown */;
+		name = "README.markdown: 4";
+		rLen = 0;
+		rLoc = 273;
+		rType = 0;
+		vrLen = 273;
+		vrLoc = 0;
+	};
+	607B7C82110E718300E3DF02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 607B7C83110E718300E3DF02 /* CGBase.h */;
+		name = "CGBase.h: 76";
+		rLen = 23;
+		rLoc = 1619;
+		rType = 0;
+		vrLen = 933;
+		vrLoc = 905;
+	};
+	607B7C83110E718300E3DF02 /* CGBase.h */ = {
+		isa = PBXFileReference;
+		name = CGBase.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGBase.h;
+		sourceTree = "<absolute>";
+	};
+	607B7C84110E718300E3DF02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 607B7C85110E718300E3DF02 /* QuickdrawAPI.h */;
+		name = "QuickdrawAPI.h: 6510";
+		rLen = 0;
+		rLoc = 203361;
+		rType = 0;
+		vrLen = 1228;
+		vrLoc = 203170;
+	};
+	607B7C85110E718300E3DF02 /* QuickdrawAPI.h */ = {
+		isa = PBXFileReference;
+		name = QuickdrawAPI.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers/QuickdrawAPI.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {876, 99120}}";
+			sepNavSelRange = "{206860, 0}";
+			sepNavVisRange = "{206488, 1362}";
+		};
+	};
+	607B7CDE110E752B00E3DF02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 607B7C7E110E718300E3DF02 /* QuickdrawAPI.h */;
+		name = "QuickdrawAPI.h: 6615";
+		rLen = 0;
+		rLoc = 206860;
+		rType = 0;
+		vrLen = 1362;
+		vrLoc = 206488;
+	};
+	607B7CDF110E752B00E3DF02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B56FEB8C102CC09E002996E7 /* AppController.m */;
+		name = "AppController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 199;
+		vrLoc = 0;
+	};
+	607B7CE0110E752B00E3DF02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 607B7C7E110E718300E3DF02 /* QuickdrawAPI.h */;
+		name = "QuickdrawAPI.h: 6615";
+		rLen = 0;
+		rLoc = 206860;
+		rType = 0;
+		vrLen = 1362;
+		vrLoc = 206488;
+	};
+	607B7CE1110E752B00E3DF02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B56FEB8C102CC09E002996E7 /* AppController.m */;
+		name = "AppController.m: 15";
+		rLen = 0;
+		rLoc = 199;
+		rType = 0;
+		vrLen = 199;
+		vrLoc = 0;
+	};
+	607B7CEF110E754900E3DF02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B56FEB8C102CC09E002996E7 /* AppController.m */;
+		name = "AppController.m: 15";
+		rLen = 0;
+		rLoc = 199;
+		rType = 0;
+		vrLen = 199;
+		vrLoc = 0;
+	};
 	8D1107260486CEB800E47090 /* Done */ = {
 		activeExec = 0;
 		executables = (
@@ -579,6 +791,13 @@
 			60240F70110B5D640070FF46 /* Done Windows */,
 		);
 	};
+	B55B6D35103006E2001ED5D5 /* Info copy.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "Info copy.plist";
+		path = "/Users/orta/spiel/cocoa/Done/Info copy.plist";
+		sourceTree = "<absolute>";
+	};
 	B56FEB3A102CB1B4002996E7 /* DoingController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {771, 537}}";
@@ -588,9 +807,16 @@
 	};
 	B56FEB3B102CB1B4002996E7 /* DoingController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {771, 784}}";
-			sepNavSelRange = "{179, 0}";
-			sepNavVisRange = "{0, 1199}";
+			sepNavIntBoundsRect = "{{0, 0}, {864, 812}}";
+			sepNavSelRange = "{1794, 0}";
+			sepNavVisRange = "{447, 1348}";
+		};
+	};
+	B56FEB8C102CC09E002996E7 /* AppController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {771, 514}}";
+			sepNavSelRange = "{199, 0}";
+			sepNavVisRange = "{0, 199}";
 		};
 	};
 	B56FEB9A102CC137002996E7 /* NSString_URLEncoding.h */ = {

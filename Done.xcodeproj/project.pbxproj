@@ -13,6 +13,13 @@
 		603B1BE8110E163A00661867 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603B1BE7110E163A00661867 /* Cocoa.framework */; };
 		607B7912110E67AC00E3DF02 /* Done.icns in Resources */ = {isa = PBXBuildFile; fileRef = 607B7911110E67AC00E3DF02 /* Done.icns */; };
 		607B7913110E67AC00E3DF02 /* Done.icns in Resources */ = {isa = PBXBuildFile; fileRef = 607B7911110E67AC00E3DF02 /* Done.icns */; };
+		607B7C30110E703700E3DF02 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607B7C2F110E703700E3DF02 /* AppKit.framework */; };
+		607B7C34110E705A00E3DF02 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607B7C33110E705A00E3DF02 /* Quartz.framework */; };
+		607B7C6A110E70A600E3DF02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607B7C69110E70A600E3DF02 /* Foundation.framework */; };
+		607B7CA7110E74EE00E3DF02 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607B7CA6110E74EE00E3DF02 /* BWToolkitFramework.framework */; };
+		607B7CAE110E751900E3DF02 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 607B7CA6110E74EE00E3DF02 /* BWToolkitFramework.framework */; };
+		607B7CE3110E753D00E3DF02 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607B7CE2110E753D00E3DF02 /* Sparkle.framework */; };
+		607B7CE6110E754000E3DF02 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 607B7CE2110E753D00E3DF02 /* Sparkle.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		B518B4C3102DABE5008D3DC2 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = B518B4C1102DABE5008D3DC2 /* tick.png */; };
@@ -32,16 +39,10 @@
 		B56FEB65102CBD29002996E7 /* MessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56FEB64102CBD29002996E7 /* MessageController.m */; };
 		B56FEB8D102CC09E002996E7 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56FEB8C102CC09E002996E7 /* AppController.m */; };
 		B56FEB9C102CC137002996E7 /* NSString_URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B56FEB9B102CC137002996E7 /* NSString_URLEncoding.m */; };
-		B56FEBBB102CC1F3002996E7 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B56FEBBA102CC1F3002996E7 /* BWToolkitFramework.framework */; };
-		B56FEBFD102CC22A002996E7 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56FEBBA102CC1F3002996E7 /* BWToolkitFramework.framework */; };
 		B56FECF4102CF99F002996E7 /* ApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56FECF3102CF99F002996E7 /* ApplicationController.m */; };
 		B56FED4D102D9983002996E7 /* Hic2.wav in Resources */ = {isa = PBXBuildFile; fileRef = B56FED4C102D9983002996E7 /* Hic2.wav */; };
-		B5711A6D1030B58E00E4421A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5711A5F1030B58D00E4421A /* Foundation.framework */; };
-		B5711A711030B58E00E4421A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5711A631030B58E00E4421A /* AppKit.framework */; };
 		B5711E051030BC2E00E4421A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5711A5F1030B58D00E4421A /* Foundation.framework */; };
 		B5711E071030BC3700E4421A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5711A631030B58E00E4421A /* AppKit.framework */; };
-		B5DE8DAE10D16C9B009996CE /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DE8DAD10D16C9B009996CE /* Sparkle.framework */; };
-		B5DE8DBA10D16CAF009996CE /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B5DE8DAD10D16C9B009996CE /* Sparkle.framework */; };
 		B5DE8DC110D16E02009996CE /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = B5DE8DC010D16E02009996CE /* dsa_pub.pem */; };
 /* End PBXBuildFile section */
 
@@ -72,8 +73,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B5DE8DBA10D16CAF009996CE /* Sparkle.framework in CopyFiles */,
-				B56FEBBB102CC1F3002996E7 /* BWToolkitFramework.framework in CopyFiles */,
+				607B7CE6110E754000E3DF02 /* Sparkle.framework in CopyFiles */,
+				607B7CAE110E751900E3DF02 /* BWToolkitFramework.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,12 +88,17 @@
 		603B192E110E15CC00661867 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		603B1BE7110E163A00661867 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		607B7911110E67AC00E3DF02 /* Done.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Done.icns; sourceTree = "<group>"; };
+		607B7935110E6C8500E3DF02 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		607B7C2F110E703700E3DF02 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		607B7C33110E705A00E3DF02 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		607B7C69110E70A600E3DF02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		607B7CA6110E74EE00E3DF02 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = ../../../Library/Frameworks/BWToolkitFramework.framework; sourceTree = SOURCE_ROOT; };
+		607B7CE2110E753D00E3DF02 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../../../Library/Frameworks/Sparkle.framework; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Done.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Done.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B518B4C1102DABE5008D3DC2 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
 		B518B4C2102DABE5008D3DC2 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
 		B55B6D33103006E1001ED5D5 /* Done.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Done.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B55B6D35103006E2001ED5D5 /* Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info copy.plist"; sourceTree = "<group>"; };
 		B56FEB3A102CB1B4002996E7 /* DoingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoingController.h; sourceTree = "<group>"; };
 		B56FEB3B102CB1B4002996E7 /* DoingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoingController.m; sourceTree = "<group>"; };
 		B56FEB63102CBD29002996E7 /* MessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageController.h; sourceTree = "<group>"; };
@@ -101,7 +107,6 @@
 		B56FEB8C102CC09E002996E7 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		B56FEB9A102CC137002996E7 /* NSString_URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_URLEncoding.h; sourceTree = "<group>"; };
 		B56FEB9B102CC137002996E7 /* NSString_URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_URLEncoding.m; sourceTree = "<group>"; };
-		B56FEBBA102CC1F3002996E7 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BWToolkitFramework.framework; sourceTree = "<group>"; };
 		B56FECF2102CF99F002996E7 /* ApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; path = ApplicationController.h; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
 		B56FECF3102CF99F002996E7 /* ApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = ApplicationController.m; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
 		B56FED4C102D9983002996E7 /* Hic2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hic2.wav; sourceTree = "<group>"; };
@@ -110,7 +115,6 @@
 		B5711A631030B58E00E4421A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppKit.framework; sourceTree = "<group>"; };
 		B5711D391030B5EA00E4421A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreText.framework; sourceTree = "<group>"; };
 		B5711D3A1030B5EA00E4421A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreGraphics.framework; sourceTree = "<group>"; };
-		B5DE8DAD10D16C9B009996CE /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		B5DE8DC010D16E02009996CE /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,12 +123,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B56FEBFD102CC22A002996E7 /* BWToolkitFramework.framework in Frameworks */,
-				B5711A6D1030B58E00E4421A /* Foundation.framework in Frameworks */,
-				B5711A711030B58E00E4421A /* AppKit.framework in Frameworks */,
-				B5DE8DAE10D16C9B009996CE /* Sparkle.framework in Frameworks */,
+				607B7C6A110E70A600E3DF02 /* Foundation.framework in Frameworks */,
 				603B192F110E15CC00661867 /* Carbon.framework in Frameworks */,
 				603B1BE8110E163A00661867 /* Cocoa.framework in Frameworks */,
+				607B7C30110E703700E3DF02 /* AppKit.framework in Frameworks */,
+				607B7C34110E705A00E3DF02 /* Quartz.framework in Frameworks */,
+				607B7CA7110E74EE00E3DF02 /* BWToolkitFramework.framework in Frameworks */,
+				607B7CE3110E753D00E3DF02 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +186,7 @@
 		29B97314FDCFA39411CA2CEA /* Done */ = {
 			isa = PBXGroup;
 			children = (
+				607B7935110E6C8500E3DF02 /* README.markdown */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -212,7 +218,6 @@
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
-				B55B6D35103006E2001ED5D5 /* Info copy.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -231,9 +236,12 @@
 		603B1BE5110E161800661867 /* Mac Only */ = {
 			isa = PBXGroup;
 			children = (
+				607B7CE2110E753D00E3DF02 /* Sparkle.framework */,
+				607B7CA6110E74EE00E3DF02 /* BWToolkitFramework.framework */,
+				607B7C69110E70A600E3DF02 /* Foundation.framework */,
+				607B7C33110E705A00E3DF02 /* Quartz.framework */,
+				607B7C2F110E703700E3DF02 /* AppKit.framework */,
 				603B192E110E15CC00661867 /* Carbon.framework */,
-				B5DE8DAD10D16C9B009996CE /* Sparkle.framework */,
-				B56FEBBA102CC1F3002996E7 /* BWToolkitFramework.framework */,
 				603B1BE7110E163A00661867 /* Cocoa.framework */,
 			);
 			name = "Mac Only";
@@ -501,7 +509,7 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Library/Frameworks\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -512,7 +520,7 @@
 				GCC_PREFIX_HEADER = Done_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Applications";
+				INSTALL_PATH = /Applications;
 				PRODUCT_NAME = Done;
 			};
 			name = Debug;
@@ -525,6 +533,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Library/Frameworks\"",
 				);
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_MODEL_TUNING = G5;

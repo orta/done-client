@@ -1,2689 +1,0 @@
-TDone Windows
-v7
-r0
-t282181477.092531
-cCheck dependencies
-cProcessInfoPlistFile /Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Info.plist Info.plist
-cCopyStringsFile /Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileXIB /Users/ben/spiel/cocoa/Done/English.lproj/MainMenu.xib
-cCpResource build/Windows/Debug/Done.app/Contents/Resources/Icon.icns Icon.icns
-cCpResource build/Windows/Debug/Done.app/Contents/Resources/Hic2.wav Hic2.wav
-cCpResource build/Windows/Debug/Done.app/Contents/Resources/tick.png tick.png
-cCpResource build/Windows/Debug/Done.app/Contents/Resources/cross.png cross.png
-cProcessPCH /var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Done_Prefix-eirnntkulwqvzpaapmfacyrakrag/Done_Prefix.pch.gch Done_Prefix.pch normal i386 objective-c org.cocotron.1.0.windows.i386.gcc.default
-cCompileC "build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/main.o" /Users/ben/spiel/cocoa/Done/main.m normal i386 objective-c org.cocotron.1.0.windows.i386.gcc.default
-cCompileC "build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/DoingController.o" /Users/ben/spiel/cocoa/Done/DoingController.m normal i386 objective-c org.cocotron.1.0.windows.i386.gcc.default
-cCompileC "build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/MessageController.o" /Users/ben/spiel/cocoa/Done/MessageController.m normal i386 objective-c org.cocotron.1.0.windows.i386.gcc.default
-cCompileC "build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/AppController.o" /Users/ben/spiel/cocoa/Done/AppController.m normal i386 objective-c org.cocotron.1.0.windows.i386.gcc.default
-cCompileC "build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/NSString_URLEncoding.o" /Users/ben/spiel/cocoa/Done/NSString_URLEncoding.m normal i386 objective-c org.cocotron.1.0.windows.i386.gcc.default
-cCompileC "build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/ApplicationController.o" /Users/ben/spiel/cocoa/Done/ApplicationController.m normal i386 objective-c org.cocotron.1.0.windows.i386.gcc.default
-cPhaseScriptExecution "Run Script" "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Script-B57116231030AD3500E4421A.sh"
-
-N/Developer/Cocotron/1.0/Windows/i386/Frameworks/Cocoa.framework/Cocoa
-c00000000000000000000000000000000
-t2
-s0
-
-N/Developer/usr/include/gcc/darwin/4.2/stdint.h
-c000000004A11A512000000000000190C
-t1242670354
-s6412
-
-N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
-c000000004A1198340000000000001538
-t1242667060
-s5432
-
-N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
-c000000004A1198340000000000000C7E
-t1242667060
-s3198
-i"syslimits.h"
-
-N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
-c000000004A11983400000000000010DD
-t1242667060
-s4317
-
-N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
-c000000004A1198340000000000000644
-t1242667060
-s1604
-
-N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
-c000000004A1198340000000000003197
-t1242667060
-s12695
-i<machine/ansi.h>
-i<sys/_types.h>
-
-N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h
-c000000004A1195E90000000000000155
-t1242666473
-s341
-
-N/Users/ben/spiel/cocoa/Done/AppController.h
-c000000004A7C891E00000000000000D0
-t1249675550
-s208
-i<Cocoa/Cocoa.h>
-
-N/Users/ben/spiel/cocoa/Done/AppController.m
-c000000004A7CC52300000000000000C7
-t1249690915
-s199
-i"AppController.h"
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/AppKit
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/AppKit.h
-c000000004A80543E00000000000016A1
-t1249924158
-s5793
-i<Foundation/Foundation.h>
-i<AppKit/NSActionCell.h>
-i<AppKit/NSAffineTransform.h>
-i<AppKit/NSAlert.h>
-i<AppKit/NSAnimation.h>
-i<AppKit/NSApplication.h>
-i<AppKit/NSArrayController.h>
-i<AppKit/NSAttributedString.h>
-i<AppKit/NSBezierPath.h>
-i<AppKit/NSBitmapImageRep.h>
-i<AppKit/NSBox.h>
-i<AppKit/NSButton.h>
-i<AppKit/NSButtonCell.h>
-i<AppKit/NSBrowser.h>
-i<AppKit/NSBrowserCell.h>
-i<AppKit/NSCachedImageRep.h>
-i<AppKit/NSCell.h>
-i<AppKit/NSClipView.h>
-i<AppKit/NSColor.h>
-i<AppKit/NSColorList.h>
-i<AppKit/NSColorPanel.h>
-i<AppKit/NSColorPicker.h>
-i<AppKit/NSColorSpace.h>
-i<AppKit/NSColorWell.h>
-i<AppKit/NSComboBox.h>
-i<AppKit/NSComboBoxCell.h>
-i<AppKit/NSControl.h>
-i<AppKit/NSController.h>
-i<AppKit/NSCursor.h>
-i<AppKit/NSCustomImageRep.h>
-i<AppKit/NSDatePicker.h>
-i<AppKit/NSDatePickerCell.h>
-i<AppKit/NSDocument.h>
-i<AppKit/NSDocumentController.h>
-i<AppKit/NSDragging.h>
-i<AppKit/NSDrawer.h>
-i<AppKit/NSEPSImageRep.h>
-i<AppKit/NSEvent.h>
-i<AppKit/NSFileWrapper.h>
-i<AppKit/NSFont.h>
-i<AppKit/NSFontDescriptor.h>
-i<AppKit/NSFontManager.h>
-i<AppKit/NSFontPanel.h>
-i<AppKit/NSForm.h>
-i<AppKit/NSFormCell.h>
-i<AppKit/NSGlyphGenerator.h>
-i<AppKit/NSGlyphInfo.h>
-i<AppKit/NSGradient.h>
-i<AppKit/NSGraphics.h>
-i<AppKit/NSGraphicsContext.h>
-i<AppKit/NSHelpManager.h>
-i<AppKit/NSImage.h>
-i<AppKit/NSImageCell.h>
-i<AppKit/NSImageRep.h>
-i<AppKit/NSImageView.h>
-i<AppKit/NSInterfaceStyle.h>
-i<AppKit/NSObject+BindingSupport.h>
-i<AppKit/NSLayoutManager.h>
-i<AppKit/NSLevelIndicator.h>
-i<AppKit/NSLevelIndicatorCell.h>
-i<AppKit/NSMatrix.h>
-i<AppKit/NSMenu.h>
-i<AppKit/NSMenuItem.h>
-i<AppKit/NSMutableParagraphStyle.h>
-i<AppKit/NSNib.h>
-i<AppKit/NSNibLoading.h>
-i<AppKit/NSNibConnector.h>
-i<AppKit/NSNibControlConnector.h>
-i<AppKit/NSNibOutletConnector.h>
-i<AppKit/NSObjectController.h>
-i<AppKit/NSOpenPanel.h>
-i<AppKit/NSOpenGLContext.h>
-i<AppKit/NSOpenGLView.h>
-i<AppKit/NSOpenGLPixelBuffer.h>
-i<AppKit/NSOpenGLPixelFormat.h>
-i<AppKit/NSOutlineView.h>
-i<AppKit/NSPageLayout.h>
-i<AppKit/NSPanel.h>
-i<AppKit/NSParagraphStyle.h>
-i<AppKit/NSPasteboard.h>
-i<AppKit/NSPDFImageRep.h>
-i<AppKit/NSPopUpButton.h>
-i<AppKit/NSPopUpButtonCell.h>
-i<AppKit/NSPrinter.h>
-i<AppKit/NSPrintOperation.h>
-i<AppKit/NSPrintPanel.h>
-i<AppKit/NSPrintInfo.h>
-i<AppKit/NSProgressIndicator.h>
-i<AppKit/NSResponder.h>
-i<AppKit/NSRulerMarker.h>
-i<AppKit/NSRulerView.h>
-i<AppKit/NSSavePanel.h>
-i<AppKit/NSScreen.h>
-i<AppKit/NSScroller.h>
-i<AppKit/NSScrollView.h>
-i<AppKit/NSSearchField.h>
-i<AppKit/NSSearchFieldCell.h>
-i<AppKit/NSSegmentedCell.h>
-i<AppKit/NSSegmentedControl.h>
-i<AppKit/NSShadow.h>
-i<AppKit/NSSlider.h>
-i<AppKit/NSSliderCell.h>
-i<AppKit/NSSound.h>
-i<AppKit/NSSpellChecker.h>
-i<AppKit/NSSplitView.h>
-i<AppKit/NSStatusBar.h>
-i<AppKit/NSStatusItem.h>
-i<AppKit/NSStepper.h>
-i<AppKit/NSStepperCell.h>
-i<AppKit/NSStringDrawing.h>
-i<AppKit/NSSecureTextField.h>
-i<AppKit/NSSecureTextFieldCell.h>
-i<AppKit/NSTableColumn.h>
-i<AppKit/NSTableHeaderCell.h>
-i<AppKit/NSTableHeaderView.h>
-i<AppKit/NSTableView.h>
-i<AppKit/NSTabView.h>
-i<AppKit/NSTabViewItem.h>
-i<AppKit/NSText.h>
-i<AppKit/NSTextAttachment.h>
-i<AppKit/NSTextAttachmentCell.h>
-i<AppKit/NSTextBlock.h>
-i<AppKit/NSTextContainer.h>
-i<AppKit/NSTextField.h>
-i<AppKit/NSTextFieldCell.h>
-i<AppKit/NSTextList.h>
-i<AppKit/NSTextStorage.h>
-i<AppKit/NSTextTab.h>
-i<AppKit/NSTextTable.h>
-i<AppKit/NSTextTableBlock.h>
-i<AppKit/NSTextView.h>
-i<AppKit/NSTokenField.h>
-i<AppKit/NSTokenFieldCell.h>
-i<AppKit/NSToolbar.h>
-i<AppKit/NSToolbarItem.h>
-i<AppKit/NSToolbarItemGroup.h>
-i<AppKit/NSTreeController.h>
-i<AppKit/NSUserDefaultsController.h>
-i<AppKit/NSView.h>
-i<AppKit/NSWindow.h>
-i<AppKit/NSWindowController.h>
-i<AppKit/NSWorkspace.h>
-i<ApplicationServices/ApplicationServices.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/AppKitExport.h
-c000000004A80543E0000000000000622
-t1249924158
-s1570
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSActionCell.h
-c000000004A80543E000000000000058A
-t1249924158
-s1418
-i<AppKit/NSCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSAffineTransform.h
-c000000004A80543F00000000000000C9
-t1249924159
-s201
-i<Foundation/NSAffineTransform.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSAlert.h
-c000000004A80543F0000000000000C09
-t1249924159
-s3081
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSAnimation.h
-c000000004A80543F0000000000000D68
-t1249924159
-s3432
-i<Foundation/NSObject.h>
-i<Foundation/NSDate.h>
-i<AppKit/AppKitExport.h>
-i<AppKit/NSViewAnimation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSApplication.h
-c000000004A80543E00000000000024BE
-t1249924158
-s9406
-i<AppKit/NSResponder.h>
-i<AppKit/AppKitExport.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSArrayController.h
-c000000004A80543F0000000000000D25
-t1249924159
-s3365
-i<AppKit/NSObjectController.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSAttributedString.h
-c000000004A80543E00000000000016C1
-t1249924158
-s5825
-i<Foundation/Foundation.h>
-i<AppKit/AppKitExport.h>
-i<AppKit/NSStringDrawing.h>
-i<AppKit/NSMutableAttributedString.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSBezierPath.h
-c000000004A80543F000000000000172E
-t1249924159
-s5934
-i<Foundation/NSObject.h>
-i<AppKit/NSFont.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSBitmapImageRep.h
-c000000004A80543E0000000000001297
-t1249924158
-s4759
-i<AppKit/NSImageRep.h>
-i<AppKit/NSGraphics.h>
-i<ApplicationServices/ApplicationServices.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSBox.h
-c000000004A80543E0000000000000889
-t1249924158
-s2185
-i<AppKit/NSView.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSBrowser.h
-c000000004A80543E000000000000147A
-t1249924158
-s5242
-i<AppKit/NSControl.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSBrowserCell.h
-c000000004A80543E0000000000000659
-t1249924158
-s1625
-i<AppKit/NSCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSButton.h
-c000000004A80543E0000000000000A4C
-t1249924158
-s2636
-i<AppKit/NSControl.h>
-i<AppKit/NSButtonCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSButtonCell.h
-c000000004A80543E0000000000000DF4
-t1249924158
-s3572
-i<AppKit/NSActionCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSCachedImageRep.h
-c000000004A80543E000000000000059D
-t1249924158
-s1437
-i<AppKit/NSImageRep.h>
-i<AppKit/NSWindow.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSCell.h
-c000000004A80543E00000000000017AA
-t1249924158
-s6058
-i<AppKit/NSText.h>
-i<AppKit/NSGraphics.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSClipView.h
-c000000004A80543E0000000000000786
-t1249924158
-s1926
-i<AppKit/NSView.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSColor.h
-c000000004A80543F000000000000132D
-t1249924159
-s4909
-i<Foundation/Foundation.h>
-i<AppKit/AppKitExport.h>
-i<ApplicationServices/ApplicationServices.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSColorList.h
-c000000004A80543E0000000000000734
-t1249924158
-s1844
-i<AppKit/AppKit.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSColorPanel.h
-c000000004A80543E0000000000000A1F
-t1249924158
-s2591
-i<AppKit/NSPanel.h>
-i<AppKit/NSApplication.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSColorPicker.h
-c000000004A80543F00000000000007BE
-t1249924159
-s1982
-i<Foundation/Foundation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSColorSpace.h
-c000000004A80543F0000000000000559
-t1249924159
-s1369
-i<Foundation/NSObject.h>
-i<ApplicationServices/ApplicationServices.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSColorWell.h
-c000000004A80543E0000000000000626
-t1249924158
-s1574
-i<AppKit/NSControl.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSComboBox.h
-c000000004A80543E0000000000000B12
-t1249924158
-s2834
-i<AppKit/NSTextField.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSComboBoxCell.h
-c000000004A80543E0000000000000B95
-t1249924158
-s2965
-i<AppKit/NSTextFieldCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSControl.h
-c000000004A80543E0000000000000E31
-t1249924158
-s3633
-i<AppKit/NSView.h>
-i<AppKit/NSText.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSController.h
-c000000004A80543F000000000000062A
-t1249924159
-s1578
-i<Foundation/NSObject.h>
-i<Foundation/NSArray.h>
-i<AppKit/AppKitExport.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSCursor.h
-c000000004A80543E0000000000000943
-t1249924158
-s2371
-i<Foundation/NSObject.h>
-i<Foundation/NSGeometry.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSCustomImageRep.h
-c000000004A80543E0000000000000509
-t1249924158
-s1289
-i<AppKit/NSImageRep.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSDatePicker.h
-c000000004A80543F00000000000008E1
-t1249924159
-s2273
-i<AppKit/NSControl.h>
-i<AppKit/NSDatePickerCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSDatePickerCell.h
-c000000004A80543F0000000000000BCE
-t1249924159
-s3022
-i<AppKit/NSActionCell.h>
-i<Foundation/NSDate.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSDocument.h
-c000000004A80543E00000000000022CA
-t1249924158
-s8906
-i<Foundation/Foundation.h>
-i<AppKit/NSUserInterfaceValidation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSDocumentController.h
-c000000004A80543E0000000000000FD6
-t1249924158
-s4054
-i<Foundation/Foundation.h>
-i<AppKit/NSUserInterfaceValidation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSDragging.h
-c000000004A80543E0000000000000AB4
-t1249924158
-s2740
-i<Foundation/Foundation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSEPSImageRep.h
-c000000004A80543E0000000000000527
-t1249924158
-s1319
-i<AppKit/NSImageRep.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSEvent.h
-c000000004A80543F0000000000001839
-t1249924159
-s6201
-i<Foundation/Foundation.h>
-i<AppKit/AppKitExport.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSFileWrapper.h
-c000000004A80543E0000000000000A77
-t1249924158
-s2679
-i<Foundation/Foundation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSFont.h
-c000000004A80543E00000000000011C9
-t1249924158
-s4553
-i<Foundation/Foundation.h>
-i<ApplicationServices/ApplicationServices.h>
-i<AppKit/NSCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSFontDescriptor.h
-c000000004A80543F0000000000000AC4
-t1249924159
-s2756
-i<Foundation/NSObject.h>
-i<AppKit/AppKitExport.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSFontManager.h
-c000000004A80543E000000000000106F
-t1249924158
-s4207
-i<Foundation/Foundation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSForm.h
-c000000004A80543E0000000000000776
-t1249924158
-s1910
-i<AppKit/NSMatrix.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSFormCell.h
-c000000004A80543E000000000000082E
-t1249924158
-s2094
-i<AppKit/NSActionCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSGlyphGenerator.h
-c000000004A80543F0000000000000706
-t1249924159
-s1798
-i<Foundation/NSObject.h>
-i<AppKit/NSFont.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSGlyphInfo.h
-c000000004A80543F000000000000071C
-t1249924159
-s1820
-i<Foundation/NSObject.h>
-i<AppKit/NSFont.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSGradient.h
-c000000004A80543F0000000000000A7B
-t1249924159
-s2683
-i<Foundation/NSObject.h>
-i<Foundation/NSGeometry.h>
-i<ApplicationServices/ApplicationServices.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSGraphics.h
-c000000004A80543E00000000000010FC
-t1249924158
-s4348
-i<Foundation/Foundation.h>
-i<AppKit/AppKitExport.h>
-i<ApplicationServices/ApplicationServices.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSGraphicsContext.h
-c000000004A80543E0000000000000B82
-t1249924158
-s2946
-i<Foundation/Foundation.h>
-i<ApplicationServices/ApplicationServices.h>
-i<AppKit/NSGraphics.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSHelpManager.h
-c000000004A80543F000000000000079B
-t1249924159
-s1947
-i<Foundation/NSObject.h>
-i<Foundation/NSGeometry.h>
-i<Foundation/NSMapTable.h>
-i<AppKit/AppKitExport.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSImage.h
-c000000004A80543E00000000000012D1
-t1249924158
-s4817
-i<AppKit/NSGraphics.h>
-i<AppKit/NSBitmapImageRep.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSImageCell.h
-c000000004A80543E000000000000083A
-t1249924158
-s2106
-i<AppKit/NSCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSImageRep.h
-c000000004A80543E0000000000000A98
-t1249924158
-s2712
-i<Foundation/NSObject.h>
-i<Foundation/NSGeometry.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSImageView.h
-c000000004A80543E00000000000006BB
-t1249924158
-s1723
-i<AppKit/NSControl.h>
-i<AppKit/NSImageCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSInterfaceStyle.h
-c000000004A80543E0000000000000562
-t1249924158
-s1378
-i<Foundation/Foundation.h>
-i<AppKit/AppKitExport.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSLayoutManager.h
-c000000004A80543F0000000000001D79
-t1249924159
-s7545
-i<Foundation/Foundation.h>
-i<AppKit/NSFont.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSLevelIndicator.h
-c000000004A80543F00000000000006CE
-t1249924159
-s1742
-i<AppKit/NSControl.h>
-i<AppKit/NSSliderCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSLevelIndicatorCell.h
-c000000004A80543F00000000000009A9
-t1249924159
-s2473
-i<AppKit/NSActionCell.h>
-i<AppKit/NSSliderCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSMatrix.h
-c000000004A80543E00000000000012F0
-t1249924158
-s4848
-i<AppKit/NSControl.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSMenu.h
-c000000004A80543F0000000000000B1D
-t1249924159
-s2845
-i<Foundation/Foundation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSMenuItem.h
-c000000004A80543F0000000000000B9C
-t1249924159
-s2972
-i<Foundation/Foundation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSMutableAttributedString.h
-c000000004A80543F0000000000000532
-t1249924159
-s1330
-i<AppKit/NSAttributedString.h>
-i<AppKit/NSFontManager.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSMutableParagraphStyle.h
-c000000004A80543F00000000000007DF
-t1249924159
-s2015
-i<AppKit/NSParagraphStyle.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSNib.h
-c000000004A80543F0000000000000678
-t1249924159
-s1656
-i<Foundation/NSObject.h>
-i<AppKit/AppKitExport.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSNibConnector.h
-c000000004A80543F00000000000005BA
-t1249924159
-s1466
-i<Foundation/Foundation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSNibControlConnector.h
-c000000004A80543F0000000000000492
-t1249924159
-s1170
-i<AppKit/NSNibConnector.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSNibLoading.h
-c000000004A80543F000000000000060D
-t1249924159
-s1549
-i<Foundation/NSBundle.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSNibOutletConnector.h
-c000000004A80543F0000000000000491
-t1249924159
-s1169
-i<AppKit/NSNibConnector.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSObject+BindingSupport.h
-c000000004A80543F0000000000000E36
-t1249924159
-s3638
-i<Foundation/NSObject.h>
-i<AppKit/AppKitExport.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSObjectController.h
-c000000004A80543F0000000000000931
-t1249924159
-s2353
-i<AppKit/NSController.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSOpenGLContext.h
-c000000004A80543F0000000000000A74
-t1249924159
-s2676
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSOpenGLPixelBuffer.h
-c000000004A80543F00000000000005D4
-t1249924159
-s1492
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSOpenGLPixelFormat.h
-c000000004A80543F0000000000000763
-t1249924159
-s1891
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSOpenGLView.h
-c000000004A80543F00000000000006C1
-t1249924159
-s1729
-i<AppKit/NSView.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSOpenPanel.h
-c000000004A80543F000000000000085A
-t1249924159
-s2138
-i<AppKit/NSSavePanel.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSOutlineView.h
-c000000004A80543F0000000000001491
-t1249924159
-s5265
-i<AppKit/NSTableView.h>
-i<AppKit/NSDragging.h>
-i<AppKit/AppKitExport.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSPDFImageRep.h
-c000000004A80543F00000000000005B9
-t1249924159
-s1465
-i<AppKit/NSImageRep.h>
-i<ApplicationServices/ApplicationServices.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSPageLayout.h
-c000000004A80543F0000000000000502
-t1249924159
-s1282
-i<Foundation/Foundation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSPanel.h
-c000000004A80543F0000000000000A1B
-t1249924159
-s2587
-i<AppKit/NSWindow.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSParagraphStyle.h
-c000000004A80543F0000000000000AD0
-t1249924159
-s2768
-i<AppKit/NSText.h>
-i<AppKit/NSMutableParagraphStyle.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSPasteboard.h
-c000000004A80543F0000000000000A91
-t1249924159
-s2705
-i<Foundation/Foundation.h>
-i<AppKit/AppKitExport.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSPopUpButton.h
-c000000004A80543F00000000000007D8
-t1249924159
-s2008
-i<AppKit/NSButton.h>
-i<AppKit/NSMenuItem.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSPopUpButtonCell.h
-c000000004A80543F00000000000007A0
-t1249924159
-s1952
-i<AppKit/NSButtonCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSPrintInfo.h
-c000000004A80543F0000000000000DB6
-t1249924159
-s3510
-i<Foundation/NSObject.h>
-i<Foundation/NSGeometry.h>
-i<AppKit/AppKitExport.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSPrintOperation.h
-c000000004A80543F0000000000000A1A
-t1249924159
-s2586
-i<Foundation/Foundation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSPrintPanel.h
-c000000004A80543F00000000000000F8
-t1249924159
-s248
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSPrinter.h
-c000000004A80543F0000000000000483
-t1249924159
-s1155
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSProgressIndicator.h
-c000000004A80543F0000000000000A65
-t1249924159
-s2661
-i<AppKit/NSView.h>
-i<AppKit/NSCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSResponder.h
-c000000004A80543F000000000000132D
-t1249924159
-s4909
-i<Foundation/Foundation.h>
-i<AppKit/NSEvent.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSRulerMarker.h
-c000000004A80543F00000000000008AA
-t1249924159
-s2218
-i<Foundation/NSObject.h>
-i<Foundation/NSGeometry.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSRulerView.h
-c000000004A80543F00000000000010DE
-t1249924159
-s4318
-i<AppKit/NSView.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSSavePanel.h
-c000000004A80543F000000000000084F
-t1249924159
-s2127
-i<AppKit/NSPanel.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSScreen.h
-c000000004A80543F0000000000000548
-t1249924159
-s1352
-i<Foundation/Foundation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSScrollView.h
-c000000004A80543F0000000000000F5B
-t1249924159
-s3931
-i<AppKit/NSView.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSScroller.h
-c000000004A80543F0000000000000A0B
-t1249924159
-s2571
-i<AppKit/NSControl.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSSearchField.h
-c000000004A80543F0000000000000522
-t1249924159
-s1314
-i<AppKit/NSTextField.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSSearchFieldCell.h
-c000000004A80543F00000000000009C9
-t1249924159
-s2505
-i<AppKit/NSTextFieldCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSSecureTextField.h
-c000000004A80543F00000000000004C1
-t1249924159
-s1217
-i<AppKit/NSTextField.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSSecureTextFieldCell.h
-c000000004A80543F00000000000004E9
-t1249924159
-s1257
-i<AppKit/NSTextFieldCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSSegmentedCell.h
-c000000004A80543F0000000000000AD9
-t1249924159
-s2777
-i<AppKit/NSActionCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSSegmentedControl.h
-c000000004A80543F000000000000082C
-t1249924159
-s2092
-i<AppKit/NSControl.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSShadow.h
-c000000004A80543F00000000000005DD
-t1249924159
-s1501
-i<Foundation/NSObject.h>
-i<Foundation/NSGeometry.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSSlider.h
-c000000004A80543F00000000000004E7
-t1249924159
-s1255
-i<AppKit/NSControl.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSSliderCell.h
-c000000004A80543F00000000000008E2
-t1249924159
-s2274
-i<AppKit/NSActionCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSSound.h
-c000000004A80543F00000000000005CC
-t1249924159
-s1484
-i<Foundation/NSBundle.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSSpellChecker.h
-c000000004A80543F0000000000000488
-t1249924159
-s1160
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSSplitView.h
-c000000004A80543F00000000000008AE
-t1249924159
-s2222
-i<AppKit/NSView.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSStatusBar.h
-c000000004A80543F0000000000000485
-t1249924159
-s1157
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSStatusItem.h
-c000000004A80543F0000000000000486
-t1249924159
-s1158
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSStepper.h
-c000000004A80543F0000000000000589
-t1249924159
-s1417
-i<AppKit/NSControl.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSStepperCell.h
-c000000004A80543F000000000000063C
-t1249924159
-s1596
-i<AppKit/NSActionCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSStringDrawing.h
-c000000004A80543F0000000000000650
-t1249924159
-s1616
-i<Foundation/Foundation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTabView.h
-c000000004A80543F0000000000000C39
-t1249924159
-s3129
-i<AppKit/NSCell.h>
-i<AppKit/NSView.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTabViewItem.h
-c000000004A80543F000000000000075B
-t1249924159
-s1883
-i<Foundation/Foundation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTableColumn.h
-c000000004A80543F00000000000008CD
-t1249924159
-s2253
-i<Foundation/Foundation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTableHeaderCell.h
-c000000004A80543F000000000000049D
-t1249924159
-s1181
-i<AppKit/NSTextFieldCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTableView.h
-c000000004A80543F0000000000002295
-t1249924159
-s8853
-i<AppKit/NSControl.h>
-i<AppKit/NSDragging.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSText.h
-c000000004A80543F0000000000001119
-t1249924159
-s4377
-i<AppKit/NSView.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTextAttachment.h
-c000000004A80543F000000000000063C
-t1249924159
-s1596
-i<Foundation/Foundation.h>
-i<AppKit/NSTextAttachmentCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTextAttachmentCell.h
-c000000004A80543F000000000000098E
-t1249924159
-s2446
-i<AppKit/NSCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTextBlock.h
-c000000004A80543F0000000000000F01
-t1249924159
-s3841
-i<Foundation/NSObject.h>
-i<Foundation/NSGeometry.h>
-i<Foundation/NSRange.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTextContainer.h
-c000000004A80543F00000000000009CC
-t1249924159
-s2508
-i<Foundation/Foundation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTextField.h
-c000000004A80543F0000000000000605
-t1249924159
-s1541
-i<AppKit/NSControl.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTextFieldCell.h
-c000000004A80543F00000000000005A6
-t1249924159
-s1446
-i<AppKit/NSActionCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTextInput.h
-c000000004A80543F00000000000004F6
-t1249924159
-s1270
-i<Foundation/NSGeometry.h>
-i<Foundation/NSRange.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTextList.h
-c000000004A80543F000000000000058B
-t1249924159
-s1419
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTextStorage.h
-c000000004A80543F00000000000008C9
-t1249924159
-s2249
-i<Foundation/Foundation.h>
-i<AppKit/AppKitExport.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTextTab.h
-c000000004A80543F000000000000056B
-t1249924159
-s1387
-i<Foundation/Foundation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTextTable.h
-c000000004A80543F0000000000000925
-t1249924159
-s2341
-i<AppKit/NSTextBlock.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTextTableBlock.h
-c000000004A80543F0000000000000623
-t1249924159
-s1571
-i<AppKit/NSTextBlock.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTextView.h
-c000000004A80543F0000000000001FF8
-t1249924159
-s8184
-i<AppKit/NSText.h>
-i<AppKit/NSTextInput.h>
-i<AppKit/NSDragging.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTokenField.h
-c000000004A80543F0000000000000605
-t1249924159
-s1541
-i<AppKit/NSTextField.h>
-i<AppKit/NSTokenFieldCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTokenFieldCell.h
-c000000004A80543F00000000000006F6
-t1249924159
-s1782
-i<AppKit/NSTextFieldCell.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSToolbar.h
-c000000004A80543F0000000000000F2A
-t1249924159
-s3882
-i<Foundation/NSObject.h>
-i<AppKit/AppKitExport.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSToolbarItem.h
-c000000004A80543F0000000000000DDA
-t1249924159
-s3546
-i<Foundation/NSObject.h>
-i<Foundation/NSGeometry.h>
-i<AppKit/AppKitExport.h>
-i<AppKit/NSUserInterfaceValidation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSToolbarItemGroup.h
-c000000004A80543F00000000000004F2
-t1249924159
-s1266
-i<AppKit/NSToolbarItem.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSTreeController.h
-c000000004A80543F0000000000000A98
-t1249924159
-s2712
-i<AppKit/NSObjectController.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSUserDefaultsController.h
-c000000004A80543F00000000000006E0
-t1249924159
-s1760
-i<AppKit/NSController.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSUserInterfaceValidation.h
-c000000004A80543F0000000000000066
-t1249924159
-s102
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSView.h
-c000000004A80543F0000000000001FC9
-t1249924159
-s8137
-i<AppKit/NSResponder.h>
-i<AppKit/NSGraphics.h>
-i<AppKit/AppKitExport.h>
-i<ApplicationServices/ApplicationServices.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSViewAnimation.h
-c000000004A80543F0000000000000657
-t1249924159
-s1623
-i<AppKit/NSAnimation.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSWindow.h
-c000000004A80543F0000000000003AAE
-t1249924159
-s15022
-i<AppKit/NSResponder.h>
-i<AppKit/AppKitExport.h>
-i<AppKit/NSView.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSWindowController.h
-c000000004A80543F000000000000093D
-t1249924159
-s2365
-i<AppKit/NSResponder.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/Headers/NSWorkspace.h
-c000000004A80543F0000000000000E99
-t1249924159
-s3737
-i<Foundation/Foundation.h>
-i<AppKit/AppKitExport.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/PrivateHeaders/NSDrawer.h
-c000000004A80543F0000000000001034
-t1249924159
-s4148
-i<Foundation/NSGeometry.h>
-i<AppKit/NSResponder.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/PrivateHeaders/NSFontPanel.h
-c000000004A80543E000000000000072E
-t1249924158
-s1838
-i<AppKit/NSPanel.h>
-
-N/Users/ben/spiel/cocoa/Done/AppKit.framework/PrivateHeaders/NSTableHeaderView.h
-c000000004A80543F00000000000005B2
-t1249924159
-s1458
-i<AppKit/NSView.h>
-
-N/Users/ben/spiel/cocoa/Done/ApplicationController.h
-c000000004A7D7ADE00000000000001CB
-t1249737438
-s459
-i<Cocoa/Cocoa.h>
-
-N/Users/ben/spiel/cocoa/Done/ApplicationController.m
-c000000004B2187240000000000000E0A
-t1260488484
-s3594
-i"ApplicationController.h"
-
-N/Users/ben/spiel/cocoa/Done/ApplicationServices.framework/Headers/ApplicationServices.h
-c000000004A80543E0000000000000476
-t1249924158
-s1142
-i<CoreGraphics/CoreGraphics.h>
-i<CoreText/CoreText.h>
-
-N/Users/ben/spiel/cocoa/Done/BWToolkitFramework.framework/Headers/BWSheetController.h
-c000000004A47D2C400000000000003C3
-t1246220996
-s963
-i<Cocoa/Cocoa.h>
-
-N/Users/ben/spiel/cocoa/Done/Cocoa.framework/Headers/Cocoa.h
-c000000004A8054620000000000000484
-t1249924194
-s1156
-i<AppKit/AppKit.h>
-i<ApplicationServices/ApplicationServices.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGAffineTransform.h
-c000000004A80543700000000000009B0
-t1249924151
-s2480
-i<Foundation/Foundation.h>
-i<CoreGraphics/CoreGraphicsExport.h>
-i<CoreGraphics/CGGeometry.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGBitmapContext.h
-c000000004A80543700000000000008CE
-t1249924151
-s2254
-i<Foundation/NSObject.h>
-i<CoreGraphics/CoreGraphicsExport.h>
-i<CoreGraphics/CGContext.h>
-i<CoreGraphics/CGImage.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGColor.h
-c000000004A80543700000000000009E5
-t1249924151
-s2533
-i<Foundation/NSObject.h>
-i<CoreGraphics/CoreGraphicsExport.h>
-i"CGGeometry.h"
-i"CGColorSpace.h"
-i"CGPattern.h"
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGColorSpace.h
-c000000004A805437000000000000075D
-t1249924151
-s1885
-i<Foundation/NSObject.h>
-i<CoreGraphics/CoreGraphicsExport.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGContext.h
-c000000004A80543700000000000036F4
-t1249924151
-s14068
-i<Foundation/NSObject.h>
-i<CoreGraphics/CoreGraphicsExport.h>
-i<CoreGraphics/CGGeometry.h>
-i<CoreGraphics/CGAffineTransform.h>
-i<CoreGraphics/CGFont.h>
-i<CoreGraphics/CGImage.h>
-i<CoreGraphics/CGColor.h>
-i<CoreGraphics/CGPath.h>
-i<CoreGraphics/CGPattern.h>
-i<CoreGraphics/CGShading.h>
-i<CoreGraphics/CGPDFPage.h>
-i<CoreGraphics/CGLayer.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGDataConsumer.h
-c000000004A8054370000000000000582
-t1249924151
-s1410
-i<Foundation/NSObject.h>
-i<CoreGraphics/CoreGraphicsExport.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGDataProvider.h
-c000000004A805437000000000000070D
-t1249924151
-s1805
-i<Foundation/NSObject.h>
-i<CoreGraphics/CoreGraphicsExport.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGFont.h
-c000000004A8054370000000000000A3D
-t1249924151
-s2621
-i<Foundation/Foundation.h>
-i<CoreGraphics/CoreGraphicsExport.h>
-i<CoreGraphics/CGGeometry.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGFunction.h
-c000000004A80543700000000000006A9
-t1249924151
-s1705
-i<Foundation/NSObject.h>
-i<CoreGraphics/CoreGraphicsExport.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGGeometry.h
-c000000004A8054370000000000000931
-t1249924151
-s2353
-i<Foundation/Foundation.h>
-i<CoreGraphics/CoreGraphicsExport.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGImage.h
-c000000004A8054370000000000001255
-t1249924151
-s4693
-i<Foundation/NSObject.h>
-i<CoreGraphics/CoreGraphicsExport.h>
-i<CoreGraphics/CGColorSpace.h>
-i<CoreGraphics/CGDataProvider.h>
-i<CoreGraphics/CGGeometry.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGImageProperties.h
-c000000004A80543700000000000005BF
-t1249924151
-s1471
-i<Foundation/NSString.h>
-i"CoreGraphicsExport.h"
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGImageSource.h
-c000000004A805437000000000000064D
-t1249924151
-s1613
-i"CoreGraphicsExport.h"
-i"CGImage.h"
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGLayer.h
-c000000004A8054370000000000000626
-t1249924151
-s1574
-i<Foundation/NSObject.h>
-i"CoreGraphicsExport.h"
-i"CGContext.h"
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGPDFContext.h
-c000000004A80543700000000000005E7
-t1249924151
-s1511
-i<Foundation/NSObject.h>
-i<CoreGraphics/CGContext.h>
-i<CoreGraphics/CGDataConsumer.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGPDFDocument.h
-c000000004A8054370000000000000689
-t1249924151
-s1673
-i"CoreGraphicsExport.h"
-i"CGPDFPage.h"
-i"CGDataProvider.h"
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGPDFPage.h
-c000000004A80543700000000000006FB
-t1249924151
-s1787
-i"CoreGraphicsExport.h"
-i<Foundation/NSObject.h>
-i<CoreGraphics/CGGeometry.h>
-i<CoreGraphics/CGAffineTransform.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGPath.h
-c000000004A8054370000000000001091
-t1249924151
-s4241
-i<Foundation/NSObject.h>
-i<CoreGraphics/CoreGraphicsExport.h>
-i<CoreGraphics/CGGeometry.h>
-i<CoreGraphics/CGAffineTransform.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGPattern.h
-c000000004A8054370000000000000765
-t1249924151
-s1893
-i<Foundation/NSObject.h>
-i"CoreGraphicsExport.h"
-i"CGGeometry.h"
-i"CGContext.h"
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CGShading.h
-c000000004A805437000000000000072D
-t1249924151
-s1837
-i<Foundation/NSObject.h>
-i<CoreGraphics/CoreGraphicsExport.h>
-i<CoreGraphics/CGGeometry.h>
-i<CoreGraphics/CGColorSpace.h>
-i<CoreGraphics/CGFunction.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CoreGraphics.h
-c000000004A805437000000000000073A
-t1249924151
-s1850
-i<Foundation/Foundation.h>
-i<CoreGraphics/CGAffineTransform.h>
-i<CoreGraphics/CGBitmapContext.h>
-i<CoreGraphics/CGColor.h>
-i<CoreGraphics/CGColorSpace.h>
-i<CoreGraphics/CGContext.h>
-i<CoreGraphics/CGDataConsumer.h>
-i<CoreGraphics/CGDataProvider.h>
-i<CoreGraphics/CGFont.h>
-i<CoreGraphics/CGFunction.h>
-i<CoreGraphics/CGGeometry.h>
-i<CoreGraphics/CGImage.h>
-i<CoreGraphics/CGImageSource.h>
-i<CoreGraphics/CGImageProperties.h>
-i<CoreGraphics/CGLayer.h>
-i<CoreGraphics/CGPath.h>
-i<CoreGraphics/CGPattern.h>
-i<CoreGraphics/CGPDFContext.h>
-i<CoreGraphics/CGPDFDocument.h>
-i<CoreGraphics/CGPDFPage.h>
-i<CoreGraphics/CGShading.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreGraphics.framework/Headers/CoreGraphicsExport.h
-c000000004A8054370000000000000652
-t1249924151
-s1618
-
-N/Users/ben/spiel/cocoa/Done/CoreText.framework/Headers/CTFont.h
-c000000004A80543E0000000000000AC0
-t1249924158
-s2752
-i<Foundation/NSObject.h>
-i<CoreText/CoreTextExport.h>
-i<CoreGraphics/CGAffineTransform.h>
-i<CoreGraphics/CGFont.h>
-i<CoreGraphics/CGPath.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreText.framework/Headers/CoreText.h
-c000000004A80543E000000000000044E
-t1249924158
-s1102
-i<CoreText/CTFont.h>
-
-N/Users/ben/spiel/cocoa/Done/CoreText.framework/Headers/CoreTextExport.h
-c000000004A80543E0000000000000632
-t1249924158
-s1586
-
-N/Users/ben/spiel/cocoa/Done/DoingController.h
-c000000004A80637F00000000000002B3
-t1249928063
-s691
-i<Cocoa/Cocoa.h>
-i"MessageController.h"
-i<BWToolkitFramework/BWSheetController.h>
-
-N/Users/ben/spiel/cocoa/Done/DoingController.m
-c000000004B213C4000000000000006CE
-t1260469312
-s1742
-i"DoingController.h"
-i"NSString_URLEncoding.h"
-
-N/Users/ben/spiel/cocoa/Done/Done_Prefix.pch
-c000000004A7C8BF60000000000000152
-t1249676278
-s338
-i<Cocoa/Cocoa.h>
-
-N/Users/ben/spiel/cocoa/Done/English.lproj/InfoPlist.strings
-c000000004A7C787B000000000000005C
-t1249671291
-s92
-
-N/Users/ben/spiel/cocoa/Done/English.lproj/MainMenu.xib
-c000000004B21783800000000000369A7
-t1260484664
-s223655
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Foundation
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/Foundation.h
-c000000004A8054220000000000001474
-t1249924130
-s5236
-i<sys/types.h>
-i<stdlib.h>
-i<ctype.h>
-i<errno.h>
-i<float.h>
-i<limits.h>
-i<math.h>
-i<stdarg.h>
-i<stddef.h>
-i<stdio.h>
-i<string.h>
-i<assert.h>
-i<locale.h>
-i<setjmp.h>
-i<signal.h>
-i<time.h>
-i<stdbool.h>
-i<stdint.h>
-i<inttypes.h>
-i<Foundation/FoundationErrors.h>
-i<Foundation/NSAffineTransform.h>
-i<Foundation/NSArchiver.h>
-i<Foundation/NSArray.h>
-i<Foundation/NSAssertionHandler.h>
-i<Foundation/NSAttributedString.h>
-i<Foundation/NSAutoreleasePool.h>
-i<Foundation/NSBundle.h>
-i<Foundation/NSByteOrder.h>
-i<Foundation/NSCachedURLResponse.h>
-i<Foundation/NSCalendar.h>
-i<Foundation/NSCalendarDate.h>
-i<Foundation/NSCharacterSet.h>
-i<Foundation/NSClassDescription.h>
-i<Foundation/NSCoder.h>
-i<Foundation/NSCountedSet.h>
-i<Foundation/NSData.h>
-i<Foundation/NSDate.h>
-i<Foundation/NSDateComponents.h>
-i<Foundation/NSDateFormatter.h>
-i<Foundation/NSDebug.h>
-i<Foundation/NSDecimalNumber.h>
-i<Foundation/NSDictionary.h>
-i<Foundation/NSDirectoryEnumerator.h>
-i<Foundation/NSEnumerator.h>
-i<Foundation/NSError.h>
-i<Foundation/NSException.h>
-i<Foundation/NSFileHandle.h>
-i<Foundation/NSFileManager.h>
-i<Foundation/NSFormatter.h>
-i<Foundation/NSGeometry.h>
-i<Foundation/NSHashTable.h>
-i<Foundation/NSHost.h>
-i<Foundation/NSIndexPath.h>
-i<Foundation/NSIndexSet.h>
-i<Foundation/NSInvocation.h>
-i<Foundation/NSKeyedArchiver.h>
-i<Foundation/NSKeyedUnarchiver.h>
-i<Foundation/NSKeyValueCoding.h>
-i<Foundation/NSKeyValueObserving.h>
-i<Foundation/NSLocale.h>
-i<Foundation/NSLock.h>
-i<Foundation/NSMapTable.h>
-i<Foundation/NSMetadataItem.h>
-i<Foundation/NSMetadataQuery.h>
-i<Foundation/NSMetadataQueryAttributeValueTuple.h>
-i<Foundation/NSMetadataQueryResultGroup.h>
-i<Foundation/NSMethodSignature.h>
-i<Foundation/NSMutableArray.h>
-i<Foundation/NSMutableAttributedString.h>
-i<Foundation/NSMutableCharacterSet.h>
-i<Foundation/NSMutableData.h>
-i<Foundation/NSMutableDictionary.h>
-i<Foundation/NSMutableIndexSet.h>
-i<Foundation/NSMutableSet.h>
-i<Foundation/NSMutableString.h>
-i<Foundation/NSNetServices.h>
-i<Foundation/NSNotification.h>
-i<Foundation/NSNotificationCenter.h>
-i<Foundation/NSNotificationQueue.h>
-i<Foundation/NSDistributedNotificationCenter.h>
-i<Foundation/NSNull.h>
-i<Foundation/NSNumber.h>
-i<Foundation/NSNumberFormatter.h>
-i<Foundation/NSObjCRuntime.h>
-i<Foundation/NSObject.h>
-i<Foundation/NSPathUtilities.h>
-i<Foundation/NSPipe.h>
-i<Foundation/NSPortCoder.h>
-i<Foundation/NSPredicate.h>
-i<Foundation/NSProcessInfo.h>
-i<Foundation/NSProxy.h>
-i<Foundation/NSRange.h>
-i<Foundation/NSRunLoop.h>
-i<Foundation/NSScanner.h>
-i<Foundation/NSSet.h>
-i<Foundation/NSSortDescriptor.h>
-i<Foundation/NSStream.h>
-i<Foundation/NSString.h>
-i<Foundation/NSTask.h>
-i<Foundation/NSThread.h>
-i<Foundation/NSTimer.h>
-i<Foundation/NSTimeZone.h>
-i<Foundation/NSUnarchiver.h>
-i<Foundation/NSUndoManager.h>
-i<Foundation/NSURL.h>
-i<Foundation/NSMutableURLRequest.h>
-i<Foundation/NSURLConnection.h>
-i<Foundation/NSUserDefaults.h>
-i<Foundation/NSValue.h>
-i<Foundation/NSValueTransformer.h>
-i<Foundation/NSXMLDocument.h>
-i<Foundation/NSXMLDTD.h>
-i<Foundation/NSXMLDTDNode.h>
-i<Foundation/NSXMLElement.h>
-i<Foundation/NSXMLNode.h>
-i<Foundation/NSXMLParser.h>
-i<Foundation/NSZone.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/FoundationErrors.h
-c000000004A805422000000000000045F
-t1249924130
-s1119
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSAffineTransform.h
-c000000004A80542200000000000007AB
-t1249924130
-s1963
-i<Foundation/NSGeometry.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSArchiver.h
-c000000004A8054220000000000000808
-t1249924130
-s2056
-i<Foundation/NSCoder.h>
-i<Foundation/NSHashTable.h>
-i<Foundation/NSUnarchiver.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSArray.h
-c000000004A8054200000000000000CE1
-t1249924128
-s3297
-i<Foundation/NSObject.h>
-i<Foundation/NSRange.h>
-i<Foundation/NSEnumerator.h>
-i<Foundation/NSMutableArray.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSAssertionHandler.h
-c000000004A8054220000000000000F95
-t1249924130
-s3989
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSAttributedString.h
-c000000004A80542000000000000007BF
-t1249924128
-s1983
-i<Foundation/NSRange.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSAutoreleasePool.h
-c000000004A805420000000000000056E
-t1249924128
-s1390
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSBundle.h
-c000000004A8054210000000000000EF9
-t1249924129
-s3833
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSByteOrder.h
-c000000004A805421000000000000101B
-t1249924129
-s4123
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSCachedURLResponse.h
-c000000004A805422000000000000070F
-t1249924130
-s1807
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSCalendar.h
-c000000004A80542200000000000009CF
-t1249924130
-s2511
-i<Foundation/NSObject.h>
-i<Foundation/NSRange.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSCalendarDate.h
-c000000004A8054220000000000000C60
-t1249924130
-s3168
-i<Foundation/NSDate.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSCharacterSet.h
-c000000004A80542200000000000007A1
-t1249924130
-s1953
-i<Foundation/NSString.h>
-i<Foundation/NSMutableCharacterSet.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSClassDescription.h
-c000000004A8054220000000000000737
-t1249924130
-s1847
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSCoder.h
-c000000004A8054210000000000000EE5
-t1249924129
-s3813
-i<Foundation/NSObject.h>
-i<Foundation/NSGeometry.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSConditionLock.h
-c000000004A8054220000000000000628
-t1249924130
-s1576
-i<Foundation/NSLock.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSCountedSet.h
-c000000004A80542100000000000004C3
-t1249924129
-s1219
-i<Foundation/NSMutableSet.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSData.h
-c000000004A8054200000000000000C0F
-t1249924128
-s3087
-i<Foundation/NSObject.h>
-i<Foundation/NSRange.h>
-i<Foundation/NSMutableData.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSDate.h
-c000000004A8054220000000000000A62
-t1249924130
-s2658
-i<Foundation/NSObject.h>
-i<Foundation/NSObjCRuntime.h>
-i<Foundation/NSTimeZone.h>
-i<Foundation/NSCalendarDate.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSDateComponents.h
-c000000004A8054220000000000000480
-t1249924130
-s1152
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSDateFormatter.h
-c000000004A8054220000000000000CBD
-t1249924130
-s3261
-i<Foundation/NSFormatter.h>
-i<Foundation/NSDate.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSDebug.h
-c000000004A80542100000000000004A7
-t1249924129
-s1191
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSDecimal.h
-c000000004A8054220000000000000466
-t1249924130
-s1126
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSDecimalNumber.h
-c000000004A8054220000000000000EC9
-t1249924130
-s3785
-i<Foundation/NSNumber.h>
-i<Foundation/NSDecimal.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSDictionary.h
-c000000004A8054200000000000000AF7
-t1249924128
-s2807
-i<Foundation/NSObject.h>
-i<Foundation/NSEnumerator.h>
-i<Foundation/NSMutableDictionary.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSDistributedNotificationCenter.h
-c000000004A80542200000000000008FE
-t1249924130
-s2302
-i<Foundation/NSNotificationCenter.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSEnumerator.h
-c000000004A80542100000000000005F4
-t1249924129
-s1524
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSError.h
-c000000004A8054220000000000000AD8
-t1249924130
-s2776
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSException.h
-c000000004A8054200000000000000CD8
-t1249924128
-s3288
-i<Foundation/NSObject.h>
-i<setjmp.h>
-i<Foundation/NSAssertionHandler.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSFileHandle.h
-c000000004A8054210000000000000B47
-t1249924129
-s2887
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSFileManager.h
-c000000004A8054210000000000001AF9
-t1249924129
-s6905
-i<Foundation/NSObject.h>
-i<Foundation/NSDictionary.h>
-i<Foundation/NSDirectoryEnumerator.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSFormatter.h
-c000000004A805421000000000000076E
-t1249924129
-s1902
-i<Foundation/NSObject.h>
-i<Foundation/NSRange.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSGeometry.h
-c000000004A8054210000000000001034
-t1249924129
-s4148
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSHashTable.h
-c000000004A8054210000000000000D9A
-t1249924129
-s3482
-i<Foundation/NSObjCRuntime.h>
-i<Foundation/NSZone.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSHost.h
-c000000004A8054210000000000000607
-t1249924129
-s1543
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSIndexPath.h
-c000000004A8054220000000000000799
-t1249924130
-s1945
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSIndexSet.h
-c000000004A805422000000000000085F
-t1249924130
-s2143
-i<Foundation/NSObject.h>
-i<Foundation/NSRange.h>
-i<Foundation/NSMutableIndexSet.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSInputStream.h
-c000000004A80542100000000000005C8
-t1249924129
-s1480
-i<Foundation/NSStream.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSInvocation.h
-c000000004A80542100000000000007DE
-t1249924129
-s2014
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSKeyValueCoding.h
-c000000004A8054220000000000000829
-t1249924130
-s2089
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSKeyValueObserving.h
-c000000004A8054220000000000000CF5
-t1249924130
-s3317
-i<Foundation/NSObject.h>
-i<Foundation/NSArray.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSKeyedArchiver.h
-c000000004A8054220000000000000D1A
-t1249924130
-s3354
-i<Foundation/NSCoder.h>
-i<Foundation/NSPropertyList.h>
-i<Foundation/NSMapTable.h>
-i<Foundation/NSKeyedUnarchiver.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSKeyedUnarchiver.h
-c000000004A8054220000000000000A90
-t1249924130
-s2704
-i<Foundation/NSCoder.h>
-i<Foundation/NSMapTable.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSLocale.h
-c000000004A8054220000000000000A18
-t1249924130
-s2584
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSLock.h
-c000000004A805421000000000000058A
-t1249924129
-s1418
-i<Foundation/NSObject.h>
-i<Foundation/NSConditionLock.h>
-i<Foundation/NSRecursiveLock.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSMapTable.h
-c000000004A8054210000000000001207
-t1249924129
-s4615
-i<Foundation/NSObjCRuntime.h>
-i<Foundation/NSZone.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSMetadataItem.h
-c000000004A8054220000000000000431
-t1249924130
-s1073
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSMetadataQuery.h
-c000000004A8054220000000000000431
-t1249924130
-s1073
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSMetadataQueryAttributeValueTuple.h
-c000000004A8054220000000000000431
-t1249924130
-s1073
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSMetadataQueryResultGroup.h
-c000000004A8054220000000000000431
-t1249924130
-s1073
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSMethodSignature.h
-c000000004A805421000000000000063C
-t1249924129
-s1596
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSMutableArray.h
-c000000004A8054200000000000000A4E
-t1249924128
-s2638
-i<Foundation/NSArray.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSMutableAttributedString.h
-c000000004A80542000000000000007F4
-t1249924128
-s2036
-i<Foundation/NSAttributedString.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSMutableCharacterSet.h
-c000000004A80542200000000000005DF
-t1249924130
-s1503
-i<Foundation/NSCharacterSet.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSMutableData.h
-c000000004A80542000000000000006E1
-t1249924128
-s1761
-i<Foundation/NSData.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSMutableDictionary.h
-c000000004A80542000000000000005E2
-t1249924128
-s1506
-i<Foundation/NSDictionary.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSMutableIndexSet.h
-c000000004A80542200000000000005F6
-t1249924130
-s1526
-i<Foundation/NSIndexSet.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSMutableSet.h
-c000000004A80542100000000000005EF
-t1249924129
-s1519
-i<Foundation/NSSet.h>
-i<Foundation/NSCountedSet.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSMutableString.h
-c000000004A80542100000000000006BD
-t1249924129
-s1725
-i<Foundation/NSString.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSMutableURLRequest.h
-c000000004A80542200000000000006B9
-t1249924130
-s1721
-i<Foundation/NSURLRequest.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSNetServices.h
-c000000004A80542200000000000018FB
-t1249924130
-s6395
-i<Foundation/NSObject.h>
-i<Foundation/NSData.h>
-i<Foundation/NSDate.h>
-i<Foundation/NSArray.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSNotification.h
-c000000004A80542100000000000005C9
-t1249924129
-s1481
-i<Foundation/NSObject.h>
-i<Foundation/NSNotificationCenter.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSNotificationCenter.h
-c000000004A80542100000000000006B6
-t1249924129
-s1718
-i<Foundation/NSNotification.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSNotificationQueue.h
-c000000004A8054210000000000000829
-t1249924129
-s2089
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSNull.h
-c000000004A80542100000000000004A2
-t1249924129
-s1186
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSNumber.h
-c000000004A8054210000000000000C21
-t1249924129
-s3105
-i<Foundation/NSValue.h>
-i<Foundation/NSDecimal.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSNumberFormatter.h
-c000000004A8054210000000000001D71
-t1249924129
-s7537
-i<Foundation/NSFormatter.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSObjCRuntime.h
-c000000004A8054210000000000000CB3
-t1249924129
-s3251
-i<objc/objc.h>
-i<stdarg.h>
-i<stdint.h>
-i<limits.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSObject.h
-c000000004A8054210000000000000C11
-t1249924129
-s3089
-i<Foundation/NSObjCRuntime.h>
-i<Foundation/NSZone.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSOutputStream.h
-c000000004A805421000000000000060C
-t1249924129
-s1548
-i<Foundation/NSStream.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSPathUtilities.h
-c000000004A8054210000000000000A11
-t1249924129
-s2577
-i<Foundation/NSString.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSPipe.h
-c000000004A80542100000000000004EF
-t1249924129
-s1263
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSPortCoder.h
-c000000004A805421000000000000068D
-t1249924129
-s1677
-i<Foundation/NSCoder.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSPredicate.h
-c000000004A8054220000000000000699
-t1249924130
-s1689
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSProcessInfo.h
-c000000004A80542100000000000007E1
-t1249924129
-s2017
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSPropertyList.h
-c000000004A8054220000000000000754
-t1249924130
-s1876
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSProxy.h
-c000000004A80542100000000000005CF
-t1249924129
-s1487
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSRange.h
-c000000004A8054210000000000000711
-t1249924129
-s1809
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSRecursiveLock.h
-c000000004A80542200000000000005CA
-t1249924130
-s1482
-i<Foundation/NSLock.h>
-i<Foundation/NSThread.h>
-i<Foundation/NSString.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSRunLoop.h
-c000000004A80542100000000000009DC
-t1249924129
-s2524
-i<Foundation/NSDate.h>
-i<Foundation/NSMapTable.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSScanner.h
-c000000004A80542100000000000008E5
-t1249924129
-s2277
-i<Foundation/NSObject.h>
-i<Foundation/NSDecimal.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSSet.h
-c000000004A805421000000000000083D
-t1249924129
-s2109
-i<Foundation/NSObject.h>
-i<Foundation/NSEnumerator.h>
-i<Foundation/NSMutableSet.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSSortDescriptor.h
-c000000004A80542200000000000005EE
-t1249924130
-s1518
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSStream.h
-c000000004A80542100000000000009C9
-t1249924129
-s2505
-i<Foundation/NSObject.h>
-i<Foundation/NSInputStream.h>
-i<Foundation/NSOutputStream.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSString.h
-c000000004A8054210000000000002A88
-t1249924129
-s10888
-i<Foundation/NSObject.h>
-i<Foundation/NSRange.h>
-i<Foundation/NSObjCRuntime.h>
-i<Foundation/NSMutableString.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSTask.h
-c000000004A805421000000000000085D
-t1249924129
-s2141
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSThread.h
-c000000004A8054210000000000000DA2
-t1249924129
-s3490
-i<Foundation/NSException.h>
-i<Foundation/NSDate.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSTimeZone.h
-c000000004A8054220000000000000A28
-t1249924130
-s2600
-i<Foundation/NSObject.h>
-i<Foundation/NSDate.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSTimer.h
-c000000004A80542100000000000007D8
-t1249924129
-s2008
-i<Foundation/NSDate.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSURL.h
-c000000004A80542200000000000009FD
-t1249924130
-s2557
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSURLConnection.h
-c000000004A8054220000000000000A26
-t1249924130
-s2598
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSURLRequest.h
-c000000004A805422000000000000096F
-t1249924130
-s2415
-i<Foundation/NSObject.h>
-i<Foundation/NSDate.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSUnarchiver.h
-c000000004A80542100000000000008C2
-t1249924129
-s2242
-i<Foundation/NSCoder.h>
-i<Foundation/NSMapTable.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSUndoManager.h
-c000000004A8054210000000000000C1E
-t1249924129
-s3102
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSUserDefaults.h
-c000000004A8054210000000000000DB9
-t1249924129
-s3513
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSValue.h
-c000000004A80542100000000000007BA
-t1249924129
-s1978
-i<Foundation/NSObject.h>
-i<Foundation/NSGeometry.h>
-i<Foundation/NSRange.h>
-i<Foundation/NSNumber.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSValueTransformer.h
-c000000004A80542200000000000006B6
-t1249924130
-s1718
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSXMLDTD.h
-c000000004A80542200000000000008EC
-t1249924130
-s2284
-i<Foundation/NSXMLNode.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSXMLDTDNode.h
-c000000004A8054220000000000000667
-t1249924130
-s1639
-i<Foundation/NSXMLNode.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSXMLDocument.h
-c000000004A8054220000000000000C65
-t1249924130
-s3173
-i<Foundation/NSXMLNode.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSXMLElement.h
-c000000004A8054220000000000000ABF
-t1249924130
-s2751
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSXMLNode.h
-c000000004A8054220000000000001086
-t1249924130
-s4230
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSXMLParser.h
-c000000004A80542200000000000007E4
-t1249924130
-s2020
-i<Foundation/NSObject.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/Headers/NSZone.h
-c000000004A8054210000000000000BF6
-t1249924129
-s3062
-i<objc/runtime.h>
-i<Foundation/NSObjCRuntime.h>
-
-N/Users/ben/spiel/cocoa/Done/Foundation.framework/PrivateHeaders/NSDirectoryEnumerator.h
-c000000004A8054210000000000000505
-t1249924129
-s1285
-i<Foundation/NSEnumerator.h>
-
-N/Users/ben/spiel/cocoa/Done/Hic2.wav
-c0000000044F94A4E0000000000000F9D
-t1157188174
-s3997
-
-N/Users/ben/spiel/cocoa/Done/Icon.icns
-c000000004A7C97FD00000000000159F9
-t1249679357
-s88569
-
-N/Users/ben/spiel/cocoa/Done/MessageController.h
-c000000004A7C9B2A00000000000001A3
-t1249680170
-s419
-i<Cocoa/Cocoa.h>
-
-N/Users/ben/spiel/cocoa/Done/MessageController.m
-c000000004A7F34520000000000000792
-t1249850450
-s1938
-i"MessageController.h"
-
-N/Users/ben/spiel/cocoa/Done/NSString_URLEncoding.h
-c000000004A80756A00000000000000E5
-t1249932650
-s229
-i<Cocoa/Cocoa.h>
-
-N/Users/ben/spiel/cocoa/Done/NSString_URLEncoding.m
-c000000004A8080B600000000000005C7
-t1249935542
-s1479
-i"NSString_URLEncoding.h"
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app
-t1249928735
-s102
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Info.plist
-t1260488671
-s903
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/PkgInfo
-t1260488671
-s8
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1260488671
-s92
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Resources/English.lproj/MainMenu.nib
-t1260488673
-s44975
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Resources/Hic2.wav
-t1249928735
-s3997
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Resources/Icon.icns
-t1249928735
-s88569
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Resources/cross.png
-t1249928735
-s979
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Resources/tick.png
-t1249928735
-s948
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Windows/Done.exe
-t2
-s0
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/AppController.o
-t1260488676
-s1249
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/ApplicationController.o
-t2
-s0
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/DoingController.o
-t2
-s0
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/Done.LinkFileList
-c000000004A80661F00000000000002B8
-t1249928735
-s696
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/MessageController.o
-t2
-s0
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/NSString_URLEncoding.o
-t1260488676
-s1370
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/main.o
-t1260488676
-s497
-
-N/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Script-B57116231030AD3500E4421A.sh
-c000000004A8081320000000000000097
-t1249935666
-s151
-
-N/Users/ben/spiel/cocoa/Done/cross.png
-c000000004A7D730600000000000003D3
-t1249735430
-s979
-
-N/Users/ben/spiel/cocoa/Done/main.m
-c000000004A83018300000000000000F7
-t1250099587
-s247
-i<Cocoa/Cocoa.h>
-
-N/Users/ben/spiel/cocoa/Done/tick.png
-c000000004A7D72C500000000000003B4
-t1249735365
-s948
-
-N/usr/include/assert.h
-c000000004A5C14A60000000000000DCB
-t1247548582
-s3531
-
-N/usr/include/ctype.h
-c000000004A5C14A60000000000002C18
-t1247548582
-s11288
-
-N/usr/include/errno.h
-c000000004A5C14A600000000000003EB
-t1247548582
-s1003
-
-N/usr/include/inttypes.h
-c000000004A5C14A600000000000027D1
-t1247548582
-s10193
-
-N/usr/include/locale.h
-c000000004A5C14A600000000000008F0
-t1247548582
-s2288
-
-N/usr/include/math.h
-c000000004A5C14A000000000000004F1
-t1247548576
-s1265
-
-N/usr/include/objc/objc.h
-c000000004A4D51C80000000000000A2F
-t1246581192
-s2607
-
-N/usr/include/objc/runtime.h
-c000000004A4D51C8000000000000530A
-t1246581192
-s21258
-
-N/usr/include/setjmp.h
-c000000004A5C14A60000000000000438
-t1247548582
-s1080
-
-N/usr/include/signal.h
-c000000004A5C14A700000000000014F0
-t1247548583
-s5360
-
-N/usr/include/stdio.h
-c000000004A5C14A70000000000004174
-t1247548583
-s16756
-
-N/usr/include/stdlib.h
-c000000004A5C14A70000000000002DF5
-t1247548583
-s11765
-
-N/usr/include/string.h
-c000000004A5C14A70000000000001731
-t1247548583
-s5937
-
-N/usr/include/sys/_types.h
-c000000004A73D6560000000000001845
-t1249105494
-s6213
-
-N/usr/include/sys/types.h
-c000000004A73D6550000000000002905
-t1249105493
-s10501
-
-N/usr/include/time.h
-c000000004A5C14A7000000000000178E
-t1247548583
-s6030
-
-N/var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Done_Prefix-eirnntkulwqvzpaapmfacyrakrag/Done_Prefix.pch.gch
-t1260488676
-s5366204
-
-NInfo.plist
-c000000004B21384000000000000003B2
-t1260468288
-s946
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies282181470#282181471#0(0"0(0#1#0"4300882208#0"0#
-
-CCompileC "build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/AppController.o" /Users/ben/spiel/cocoa/Done/AppController.m normal i386 objective-c org.cocotron.1.0.windows.i386.gcc.default
-s282181476.456907
-e282181476.754242
-r1
-xCompileC
-xbuild/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/AppController.o
-x/Users/ben/spiel/cocoa/Done/AppController.m
-xnormal
-xi386
-xobjective-c
-xorg.cocotron.1.0.windows.i386.gcc.default
-lSLF07#2@51"Compile /Users/ben/spiel/cocoa/Done/AppController.m282181476#282181476#0(0"0(0#0#43"/Users/ben/spiel/cocoa/Done/AppController.m4300882208#1150"    cd /Users/ben/spiel/cocoa/Done    setenv LANG en_US.US-ASCII    /Developer/Cocotron/1.0/Windows/i386/gcc-4.3.1/bin/i386-mingw32msvc-gcc -x objective-c -fmessage-length=0 -pipe -Wno-trigraphs -O0 -Wreturn-type -fvisibility=hidden -F/Developer/Cocotron/1.0/Windows/i386/Frameworks -D__COCOTRON__ -DWINDOWS -fobjc-module-static-initializer -fconstant-string-class=NSConstantString -F/Users/ben/spiel/cocoa/Done/build/Windows/Debug -F/Developer/Cocotron/1.0/Windows/i386/Framework -F/Users/ben/spiel/cocoa/Done -F/Developer/Cocotron/1.0/Windows/i386/Frameworks -I/Users/ben/spiel/cocoa/Done/build/Windows/Debug/include "-I/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources/i386" "-I/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources" -include /var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Done_Prefix-eirnntkulwqvzpaapmfacyrakrag/Done_Prefix.pch -c /Users/ben/spiel/cocoa/Done/AppController.m -o "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/AppController.o"0#
-
-CCompileC "build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/ApplicationController.o" /Users/ben/spiel/cocoa/Done/ApplicationController.m normal i386 objective-c org.cocotron.1.0.windows.i386.gcc.default
-s282181476.754333
-e282181476.794214
-r0
-xCompileC
-xbuild/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/ApplicationController.o
-x/Users/ben/spiel/cocoa/Done/ApplicationController.m
-xnormal
-xi386
-xobjective-c
-xorg.cocotron.1.0.windows.i386.gcc.default
-oIn file included from /Users/ben/spiel/cocoa/Done/ApplicationController.m:9:
-o/Users/ben/spiel/cocoa/Done/ApplicationController.h:22: error: expected ')' before 'bool'
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m: In function '-[ApplicationController openWindow]':
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m:74: warning: no '-initWithContentsOfURL:byReference:' method found
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m:74: warning: (Messages without a matching method signature
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m:74: warning: will be assumed to return 'id' and accept
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m:74: warning: '...' as arguments.)
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m: In function '-[ApplicationController controlTextDidChange:]':
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m:109: error: 'true' undeclared (first use in this function)
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m:109: error: (Each undeclared identifier is reported only once
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m:109: error: for each function it appears in.)
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m: At top level:
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m:117: error: expected ')' before 'bool'
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m: In function '-[ApplicationController testURL:]':
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m:118: warning: 'NSString' may not respond to '+stringWithContentsOfURL:'
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m:120: error: 'true' undeclared (first use in this function)
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m:122: error: 'false' undeclared (first use in this function)
-o/Users/ben/spiel/cocoa/Done/ApplicationController.m:123: warning: control reaches end of non-void function
-lSLF07#2@59"Compile /Users/ben/spiel/cocoa/Done/ApplicationController.m282181476#282181476#0(1846"In file included from /Users/ben/spiel/cocoa/Done/ApplicationController.m:9:/Users/ben/spiel/cocoa/Done/ApplicationController.h:22: error: expected ')' before 'bool'/Users/ben/spiel/cocoa/Done/ApplicationController.m: In function '-[ApplicationController openWindow]':/Users/ben/spiel/cocoa/Done/ApplicationController.m:74: warning: no '-initWithContentsOfURL:byReference:' method found/Users/ben/spiel/cocoa/Done/ApplicationController.m:74: warning: (Messages without a matching method signature/Users/ben/spiel/cocoa/Done/ApplicationController.m:74: warning: will be assumed to return 'id' and accept/Users/ben/spiel/cocoa/Done/ApplicationController.m:74: warning: '...' as arguments.)/Users/ben/spiel/cocoa/Done/ApplicationController.m: In function '-[ApplicationController controlTextDidChange:]':/Users/ben/spiel/cocoa/Done/ApplicationController.m:109: error: 'true' undeclared (first use in this function)/Users/ben/spiel/cocoa/Done/ApplicationController.m:109: error: (Each undeclared identifier is reported only once/Users/ben/spiel/cocoa/Done/ApplicationController.m:109: error: for each function it appears in.)/Users/ben/spiel/cocoa/Done/ApplicationController.m: At top level:/Users/ben/spiel/cocoa/Done/ApplicationController.m:117: error: expected ')' before 'bool'/Users/ben/spiel/cocoa/Done/ApplicationController.m: In function '-[ApplicationController testURL:]':/Users/ben/spiel/cocoa/Done/ApplicationController.m:118: warning: 'NSString' may not respond to '+stringWithContentsOfURL:'/Users/ben/spiel/cocoa/Done/ApplicationController.m:120: error: 'true' undeclared (first use in this function)/Users/ben/spiel/cocoa/Done/ApplicationController.m:122: error: 'false' undeclared (first use in this function)/Users/ben/spiel/cocoa/Done/ApplicationController.m:123: warning: control reaches end of non-void function10(4@26"Expected ')' before 'bool'282181476#77#90#2(7@73"In file included from /Users/ben/spiel/cocoa/Done/ApplicationController.m282181476#18446744073709551615#0#0(6@51"/Users/ben/spiel/cocoa/Done/ApplicationController.m282181284#9#0#9#0#0"0(13@81"Expected ')' before 'bool' in /Users/ben/spiel/cocoa/Done/ApplicationController.h282181476#18446744073709551615#0#0(6@51"/Users/ben/spiel/cocoa/Done/ApplicationController.h271430238#22#0#22#0#0"0(6@51"/Users/ben/spiel/cocoa/Done/ApplicationController.h271430238#22#0#22#0#19"expected * before *0(22@53"No '-initWithContentsOfURL:byReference:' method found282181476#271#119#0(6@51"/Users/ben/spiel/cocoa/Done/ApplicationController.m282181284#74#0#74#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282181476#390#111#0(6@51"/Users/ben/spiel/cocoa/Done/ApplicationController.m282181284#74#0#74#0#0"0(4@46"'true' undeclared (first use in this function)282181476#809#111#0(6@51"/Users/ben/spiel/cocoa/Done/ApplicationController.m282181284#109#0#109#0#43"'*' undeclared (first use in this function)0(23@13"At top level:282181476#1132#67#0(6@51"/Users/ben/spiel/cocoa/Done/ApplicationController.m282181284#0#0#0#0#0"0(4@26"Expected ')' before 'bool'282181476#1199#91#0(6@51"/Users/ben/spiel/cocoa/Done/ApplicationController.m282181284#117#0#117#0#19"expected * before *0(22@57"'NSString' may not respond to '+stringWithContentsOfURL:'282181476#1392#124#0(6@51"/Users/ben/spiel/cocoa/Done/ApplicationController.m282181284#118#0#118#0#26"'*' may not respond to '*'0(4@46"'true' undeclared (first use in this function)282181476#1516#111#0(6@51"/Users/ben/spiel/cocoa/Done/ApplicationController.m282181284#120#0#120#0#43"'*' undeclared (first use in this function)0(4@47"'false' undeclared (first use in this function)282181476#1627#112#0(6@51"/Users/ben/spiel/cocoa/Done/ApplicationController.m282181284#122#0#122#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function282181476#1739#107#0(6@51"/Users/ben/spiel/cocoa/Done/ApplicationController.m282181284#123#0#123#0#40"control reaches end of non-void function0(0#0#51"/Users/ben/spiel/cocoa/Done/ApplicationController.m4300882208#1166"    cd /Users/ben/spiel/cocoa/Done    setenv LANG en_US.US-ASCII    /Developer/Cocotron/1.0/Windows/i386/gcc-4.3.1/bin/i386-mingw32msvc-gcc -x objective-c -fmessage-length=0 -pipe -Wno-trigraphs -O0 -Wreturn-type -fvisibility=hidden -F/Developer/Cocotron/1.0/Windows/i386/Frameworks -D__COCOTRON__ -DWINDOWS -fobjc-module-static-initializer -fconstant-string-class=NSConstantString -F/Users/ben/spiel/cocoa/Done/build/Windows/Debug -F/Developer/Cocotron/1.0/Windows/i386/Framework -F/Users/ben/spiel/cocoa/Done -F/Developer/Cocotron/1.0/Windows/i386/Frameworks -I/Users/ben/spiel/cocoa/Done/build/Windows/Debug/include "-I/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources/i386" "-I/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources" -include /var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Done_Prefix-eirnntkulwqvzpaapmfacyrakrag/Done_Prefix.pch -c /Users/ben/spiel/cocoa/Done/ApplicationController.m -o "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/ApplicationController.o"1#
-
-CCompileC "build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/DoingController.o" /Users/ben/spiel/cocoa/Done/DoingController.m normal i386 objective-c org.cocotron.1.0.windows.i386.gcc.default
-s282181476.455281
-e282181476.754040
-r0
-xCompileC
-xbuild/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/DoingController.o
-x/Users/ben/spiel/cocoa/Done/DoingController.m
-xnormal
-xi386
-xobjective-c
-xorg.cocotron.1.0.windows.i386.gcc.default
-o/Users/ben/spiel/cocoa/Done/DoingController.m: In function '-[DoingController shouldCloseSheet:]':
-o/Users/ben/spiel/cocoa/Done/DoingController.m:52: error: 'true' undeclared (first use in this function)
-o/Users/ben/spiel/cocoa/Done/DoingController.m:52: error: (Each undeclared identifier is reported only once
-o/Users/ben/spiel/cocoa/Done/DoingController.m:52: error: for each function it appears in.)
-o/Users/ben/spiel/cocoa/Done/DoingController.m:53: warning: control reaches end of non-void function
-lSLF07#2@53"Compile /Users/ben/spiel/cocoa/Done/DoingController.m282181476#282181476#0(501"/Users/ben/spiel/cocoa/Done/DoingController.m: In function '-[DoingController shouldCloseSheet:]':/Users/ben/spiel/cocoa/Done/DoingController.m:52: error: 'true' undeclared (first use in this function)/Users/ben/spiel/cocoa/Done/DoingController.m:52: error: (Each undeclared identifier is reported only once/Users/ben/spiel/cocoa/Done/DoingController.m:52: error: for each function it appears in.)/Users/ben/spiel/cocoa/Done/DoingController.m:53: warning: control reaches end of non-void function2(4@46"'true' undeclared (first use in this function)282181476#99#104#0(6@45"/Users/ben/spiel/cocoa/Done/DoingController.m282162112#52#0#52#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function282181476#401#100#0(6@45"/Users/ben/spiel/cocoa/Done/DoingController.m282162112#53#0#53#0#40"control reaches end of non-void function0(0#0#45"/Users/ben/spiel/cocoa/Done/DoingController.m4300882208#1154"    cd /Users/ben/spiel/cocoa/Done    setenv LANG en_US.US-ASCII    /Developer/Cocotron/1.0/Windows/i386/gcc-4.3.1/bin/i386-mingw32msvc-gcc -x objective-c -fmessage-length=0 -pipe -Wno-trigraphs -O0 -Wreturn-type -fvisibility=hidden -F/Developer/Cocotron/1.0/Windows/i386/Frameworks -D__COCOTRON__ -DWINDOWS -fobjc-module-static-initializer -fconstant-string-class=NSConstantString -F/Users/ben/spiel/cocoa/Done/build/Windows/Debug -F/Developer/Cocotron/1.0/Windows/i386/Framework -F/Users/ben/spiel/cocoa/Done -F/Developer/Cocotron/1.0/Windows/i386/Frameworks -I/Users/ben/spiel/cocoa/Done/build/Windows/Debug/include "-I/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources/i386" "-I/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources" -include /var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Done_Prefix-eirnntkulwqvzpaapmfacyrakrag/Done_Prefix.pch -c /Users/ben/spiel/cocoa/Done/DoingController.m -o "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/DoingController.o"1#
-
-CCompileC "build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/MessageController.o" /Users/ben/spiel/cocoa/Done/MessageController.m normal i386 objective-c org.cocotron.1.0.windows.i386.gcc.default
-s282181476.456066
-e282181476.711861
-r0
-xCompileC
-xbuild/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/MessageController.o
-x/Users/ben/spiel/cocoa/Done/MessageController.m
-xnormal
-xi386
-xobjective-c
-xorg.cocotron.1.0.windows.i386.gcc.default
-o/Users/ben/spiel/cocoa/Done/MessageController.m: In function '-[MessageController awakeFromNib]':
-o/Users/ben/spiel/cocoa/Done/MessageController.m:16: error: 'true' undeclared (first use in this function)
-o/Users/ben/spiel/cocoa/Done/MessageController.m:16: error: (Each undeclared identifier is reported only once
-o/Users/ben/spiel/cocoa/Done/MessageController.m:16: error: for each function it appears in.)
-o/Users/ben/spiel/cocoa/Done/MessageController.m: In function '-[MessageController sendString:withSender:]':
-o/Users/ben/spiel/cocoa/Done/MessageController.m:25: error: 'false' undeclared (first use in this function)
-o/Users/ben/spiel/cocoa/Done/MessageController.m: In function '-[MessageController connection:didFailWithError:]':
-o/Users/ben/spiel/cocoa/Done/MessageController.m:49: error: 'true' undeclared (first use in this function)
-o/Users/ben/spiel/cocoa/Done/MessageController.m: In function '-[MessageController connectionDidFinishLoading:]':
-o/Users/ben/spiel/cocoa/Done/MessageController.m:59: error: 'true' undeclared (first use in this function)
-lSLF07#2@55"Compile /Users/ben/spiel/cocoa/Done/MessageController.m282181476#282181476#0(1060"/Users/ben/spiel/cocoa/Done/MessageController.m: In function '-[MessageController awakeFromNib]':/Users/ben/spiel/cocoa/Done/MessageController.m:16: error: 'true' undeclared (first use in this function)/Users/ben/spiel/cocoa/Done/MessageController.m:16: error: (Each undeclared identifier is reported only once/Users/ben/spiel/cocoa/Done/MessageController.m:16: error: for each function it appears in.)/Users/ben/spiel/cocoa/Done/MessageController.m: In function '-[MessageController sendString:withSender:]':/Users/ben/spiel/cocoa/Done/MessageController.m:25: error: 'false' undeclared (first use in this function)/Users/ben/spiel/cocoa/Done/MessageController.m: In function '-[MessageController connection:didFailWithError:]':/Users/ben/spiel/cocoa/Done/MessageController.m:49: error: 'true' undeclared (first use in this function)/Users/ben/spiel/cocoa/Done/MessageController.m: In function '-[MessageController connectionDidFinishLoading:]':/Users/ben/spiel/cocoa/Done/MessageController.m:59: error: 'true' undeclared (first use in this function)4(4@46"'true' undeclared (first use in this function)282181476#98#106#0(6@47"/Users/ben/spiel/cocoa/Done/MessageController.m271543250#16#0#16#0#43"'*' undeclared (first use in this function)0(4@47"'false' undeclared (first use in this function)282181476#514#107#0(6@47"/Users/ben/spiel/cocoa/Done/MessageController.m271543250#25#0#25#0#43"'*' undeclared (first use in this function)0(4@46"'true' undeclared (first use in this function)282181476#735#106#0(6@47"/Users/ben/spiel/cocoa/Done/MessageController.m271543250#49#0#49#0#43"'*' undeclared (first use in this function)0(4@46"'true' undeclared (first use in this function)282181476#954#106#0(6@47"/Users/ben/spiel/cocoa/Done/MessageController.m271543250#59#0#59#0#43"'*' undeclared (first use in this function)0(0#0#47"/Users/ben/spiel/cocoa/Done/MessageController.m4300882208#1158"    cd /Users/ben/spiel/cocoa/Done    setenv LANG en_US.US-ASCII    /Developer/Cocotron/1.0/Windows/i386/gcc-4.3.1/bin/i386-mingw32msvc-gcc -x objective-c -fmessage-length=0 -pipe -Wno-trigraphs -O0 -Wreturn-type -fvisibility=hidden -F/Developer/Cocotron/1.0/Windows/i386/Frameworks -D__COCOTRON__ -DWINDOWS -fobjc-module-static-initializer -fconstant-string-class=NSConstantString -F/Users/ben/spiel/cocoa/Done/build/Windows/Debug -F/Developer/Cocotron/1.0/Windows/i386/Framework -F/Users/ben/spiel/cocoa/Done -F/Developer/Cocotron/1.0/Windows/i386/Frameworks -I/Users/ben/spiel/cocoa/Done/build/Windows/Debug/include "-I/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources/i386" "-I/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources" -include /var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Done_Prefix-eirnntkulwqvzpaapmfacyrakrag/Done_Prefix.pch -c /Users/ben/spiel/cocoa/Done/MessageController.m -o "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/MessageController.o"1#
-
-CCompileC "build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/NSString_URLEncoding.o" /Users/ben/spiel/cocoa/Done/NSString_URLEncoding.m normal i386 objective-c org.cocotron.1.0.windows.i386.gcc.default
-s282181476.712130
-e282181476.810370
-r1
-xCompileC
-xbuild/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/NSString_URLEncoding.o
-x/Users/ben/spiel/cocoa/Done/NSString_URLEncoding.m
-xnormal
-xi386
-xobjective-c
-xorg.cocotron.1.0.windows.i386.gcc.default
-lSLF07#2@58"Compile /Users/ben/spiel/cocoa/Done/NSString_URLEncoding.m282181476#282181476#0(0"0(0#0#50"/Users/ben/spiel/cocoa/Done/NSString_URLEncoding.m4300882208#1164"    cd /Users/ben/spiel/cocoa/Done    setenv LANG en_US.US-ASCII    /Developer/Cocotron/1.0/Windows/i386/gcc-4.3.1/bin/i386-mingw32msvc-gcc -x objective-c -fmessage-length=0 -pipe -Wno-trigraphs -O0 -Wreturn-type -fvisibility=hidden -F/Developer/Cocotron/1.0/Windows/i386/Frameworks -D__COCOTRON__ -DWINDOWS -fobjc-module-static-initializer -fconstant-string-class=NSConstantString -F/Users/ben/spiel/cocoa/Done/build/Windows/Debug -F/Developer/Cocotron/1.0/Windows/i386/Framework -F/Users/ben/spiel/cocoa/Done -F/Developer/Cocotron/1.0/Windows/i386/Frameworks -I/Users/ben/spiel/cocoa/Done/build/Windows/Debug/include "-I/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources/i386" "-I/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources" -include /var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Done_Prefix-eirnntkulwqvzpaapmfacyrakrag/Done_Prefix.pch -c /Users/ben/spiel/cocoa/Done/NSString_URLEncoding.m -o "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/NSString_URLEncoding.o"0#
-
-CCompileC "build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/main.o" /Users/ben/spiel/cocoa/Done/main.m normal i386 objective-c org.cocotron.1.0.windows.i386.gcc.default
-s282181476.454171
-e282181476.755595
-r1
-xCompileC
-xbuild/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/main.o
-x/Users/ben/spiel/cocoa/Done/main.m
-xnormal
-xi386
-xobjective-c
-xorg.cocotron.1.0.windows.i386.gcc.default
-o/Users/ben/spiel/cocoa/Done/main.m: In function 'main':
-o/Users/ben/spiel/cocoa/Done/main.m:13: warning: visibility attribute not supported in this configuration; ignored
-lSLF07#2@42"Compile /Users/ben/spiel/cocoa/Done/main.m282181476#282181476#0(170"/Users/ben/spiel/cocoa/Done/main.m: In function 'main':/Users/ben/spiel/cocoa/Done/main.m:13: warning: visibility attribute not supported in this configuration; ignored1(22@65"Visibility attribute not supported in this configuration; ignored282181476#56#114#0(6@34"/Users/ben/spiel/cocoa/Done/main.m271792387#13#0#13#0#0"0(0#0#34"/Users/ben/spiel/cocoa/Done/main.m4300882208#1132"    cd /Users/ben/spiel/cocoa/Done    setenv LANG en_US.US-ASCII    /Developer/Cocotron/1.0/Windows/i386/gcc-4.3.1/bin/i386-mingw32msvc-gcc -x objective-c -fmessage-length=0 -pipe -Wno-trigraphs -O0 -Wreturn-type -fvisibility=hidden -F/Developer/Cocotron/1.0/Windows/i386/Frameworks -D__COCOTRON__ -DWINDOWS -fobjc-module-static-initializer -fconstant-string-class=NSConstantString -F/Users/ben/spiel/cocoa/Done/build/Windows/Debug -F/Developer/Cocotron/1.0/Windows/i386/Framework -F/Users/ben/spiel/cocoa/Done -F/Developer/Cocotron/1.0/Windows/i386/Frameworks -I/Users/ben/spiel/cocoa/Done/build/Windows/Debug/include "-I/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources/i386" "-I/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources" -include /var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Done_Prefix-eirnntkulwqvzpaapmfacyrakrag/Done_Prefix.pch -c /Users/ben/spiel/cocoa/Done/main.m -o "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/main.o"0#
-
-CCompileXIB /Users/ben/spiel/cocoa/Done/English.lproj/MainMenu.xib
-s282181471.148357
-e282181473.346936
-r1
-xCompileXIB
-x/Users/ben/spiel/cocoa/Done/English.lproj/MainMenu.xib
-o/* com.apple.ibtool.document.notices */
-o/Users/ben/spiel/cocoa/Done/English.lproj/MainMenu.xib:541: note: This view is clipping its content.
-o/* com.apple.ibtool.document.warnings */
-o/Users/ben/spiel/cocoa/Done/English.lproj/MainMenu.xib:463: warning: The 'mainWindow' outlet of 'Doing Controller' is connected to 'Window' but 'mainWindow' is no longer defined on DoingController.
-o/Users/ben/spiel/cocoa/Done/English.lproj/MainMenu.xib:463: warning: The 'prefsView' outlet of 'Doing Controller' is connected to 'Preferences' but 'prefsView' is no longer defined on DoingController.
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib282181471#282181473#0(581"/* com.apple.ibtool.document.notices *//Users/ben/spiel/cocoa/Done/English.lproj/MainMenu.xib:541: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/ben/spiel/cocoa/Done/English.lproj/MainMenu.xib:463: warning: The 'mainWindow' outlet of 'Doing Controller' is connected to 'Window' but 'mainWindow' is no longer defined on DoingController./Users/ben/spiel/cocoa/Done/English.lproj/MainMenu.xib:463: warning: The 'prefsView' outlet of 'Doing Controller' is connected to 'Preferences' but 'prefsView' is no longer defined on DoingController.3(13@34"This view is clipping its content.282181473#18446744073709551615#0#0(6@54"/Users/ben/spiel/cocoa/Done/English.lproj/MainMenu.xib282177464#541#0#541#0#0"0(22@128"The 'mainWindow' outlet of 'Doing Controller' is connected to 'Window' but 'mainWindow' is no longer defined on DoingController.282181473#18446744073709551615#0#0(6@54"/Users/ben/spiel/cocoa/Done/English.lproj/MainMenu.xib282177464#463#0#463#0#0"0(22@131"The 'prefsView' outlet of 'Doing Controller' is connected to 'Preferences' but 'prefsView' is no longer defined on DoingController.282181473#18446744073709551615#0#0(6@54"/Users/ben/spiel/cocoa/Done/English.lproj/MainMenu.xib282177464#463#0#463#0#0"0(0#0#54"/Users/ben/spiel/cocoa/Done/English.lproj/MainMenu.xib4300882208#299"    cd /Users/ben/spiel/cocoa/Done    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Resources/English.lproj/MainMenu.nib /Users/ben/spiel/cocoa/Done/English.lproj/MainMenu.xib0#
-
-CCopyStringsFile /Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s282181471.124904
-e282181471.831478
-r1
-xCopyStringsFile
-x/Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings282181471#282181471#0(0"0(0#0#59"/Users/ben/spiel/cocoa/Done/English.lproj/InfoPlist.strings4300882208#349"    cd /Users/ben/spiel/cocoa/Done    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Resources/English.lproj0#
-
-CCpResource build/Windows/Debug/Done.app/Contents/Resources/Hic2.wav Hic2.wav
-r0
-
-CCpResource build/Windows/Debug/Done.app/Contents/Resources/Icon.icns Icon.icns
-r0
-
-CCpResource build/Windows/Debug/Done.app/Contents/Resources/cross.png cross.png
-r0
-
-CCpResource build/Windows/Debug/Done.app/Contents/Resources/tick.png tick.png
-r0
-
-CLd /Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Windows/Done.exe normal i386
-r0
-
-CPhaseScriptExecution "Run Script" "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Script-B57116231030AD3500E4421A.sh"
-s282181476.810482
-e282181477.092458
-r0
-xPhaseScriptExecution
-xRun Script
-x/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Script-B57116231030AD3500E4421A.sh
-o2009-12-10 23:44:37.000 retargetBundle[31962:903] Unable to find -framework Foundation on path (null)
-lSLF07#2@36"Run custom shell script 'Run Script'282181476#282181477#0(144"2009-12-10 23:44:37.000 retargetBundle[31962:903] Unable to find -framework Foundation on path (null)Command /bin/sh failed with exit code 2552(13@102"2009-12-10 23:44:37.000 retargetBundle[31962:903] Unable to find -framework Foundation on path (null)282181477#0#102#0(1@0"0(4@41"Command /bin/sh failed with exit code 255282181477#18446744073709551615#0#0(1@0"0(0#0#0"4300882208#15574"    cd /Users/ben/spiel/cocoa/Done    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER ben    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/ben/spiel/cocoa/Done/build/Windows    setenv BUILD_ROOT /Users/ben/spiel/cocoa/Done/build/Windows    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/ben/spiel/cocoa/Done/build/Windows/Debug    setenv CACHE_ROOT /var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503    setenv CCHROOT /var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/ben/spiel/cocoa/Done/build/Windows/Debug    setenv CONFIGURATION_TEMP_DIR /Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug    setenv CONTENTS_FOLDER_PATH Done.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Done.dst    setenv DWARF_DSYM_FILE_NAME Done.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/ben/spiel/cocoa/Done/build/Windows/Debug    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Done.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH Done.app/Contents/Windows    setenv EXECUTABLE_NAME Done.exe    setenv EXECUTABLE_PATH Done.app/Contents/Windows/Done.exe    setenv EXECUTABLE_SUFFIX .exe    setenv FILE_LIST "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH Done.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/ben/spiel/cocoa/Done/build/Windows/Debug\" /Developer/Cocotron/1.0/Windows/i386/Framework \"/Users/ben/spiel/cocoa/Done\" \"/Developer/Cocotron/1.0/Windows/i386/Frameworks\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Done.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD compiler-default    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE NO    setenv GCC_ENABLE_OBJC_GC unsupported    setenv GCC_GENERATE_DEBUGGING_SYMBOLS NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Done_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/ben/spiel/cocoa/Done/build/Windows/Debug/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH Done.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/Done.dst/Users/ben/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER ben    setenv INSTALL_PATH /Users/ben/Applications    setenv INSTALL_ROOT /tmp/Done.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Done.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Done-LinkMap-normal-i386.txt"    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/ben/spiel/cocoa/Done/build/Windows/Debug\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects-normal/i386/Done.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_VERSION_ACTUAL 1062    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0602    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Objects-normal"    setenv OBJROOT /Users/ben/spiel/cocoa/Done/build/Windows    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-Wl,--enable-auto-import -mwindows"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Done.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/PkgInfo"    setenv PKGINFO_PATH Done.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH Done.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Done.app/Contents/PrivateHeaders    setenv PRODUCT_NAME Done    setenv PRODUCT_SETTINGS_PATH /Users/ben/spiel/cocoa/Done/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Done    setenv PROJECT_DERIVED_FILE_DIR /Users/ben/spiel/cocoa/Done/build/Windows/Done.build/DerivedSources    setenv PROJECT_DIR /Users/ben/spiel/cocoa/Done    setenv PROJECT_FILE_PATH /Users/ben/spiel/cocoa/Done/Done.xcodeproj    setenv PROJECT_NAME Done    setenv PROJECT_TEMP_DIR /Users/ben/spiel/cocoa/Done/build/Windows/Done.build    setenv PUBLIC_HEADERS_FOLDER_PATH Done.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/ben/spiel/cocoa/Done/build/Windows/Debug\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Done.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/ben/spiel/cocoa/Done/build/Windows/Debug/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Done.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Done.app/Contents/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/ben/spiel/cocoa/Done    setenv SRCROOT /Users/ben/spiel/cocoa/Done    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/SymbolRepositories"    setenv SYMROOT /Users/ben/spiel/cocoa/Done/build/Windows    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME "Done Windows"    setenv TARGET_BUILD_DIR /Users/ben/spiel/cocoa/Done/build/Windows/Debug    setenv TARGET_NAME "Done Windows"    setenv TARGET_TEMP_DIR "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build"    setenv TEMP_DIR "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build"    setenv TEMP_FILES_DIR "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build"    setenv TEMP_FILE_DIR "/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build"    setenv TEMP_ROOT /Users/ben/spiel/cocoa/Done/build/Windows    setenv UID 503    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Done.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER ben    setenv USER_APPS_DIR /Users/ben/Applications    setenv USER_LIBRARY_DIR /Users/ben/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Done.app/Contents/version.plist    setenv VERSION_INFO_BUILDER ben    setenv VERSION_INFO_FILE Done_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Done  PROJECT:Done-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Done.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0320    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c "\"/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/Script-B57116231030AD3500E4421A.sh\""255#
-
-CProcessInfoPlistFile /Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Info.plist Info.plist
-s282181471.062450
-e282181471.124794
-r1
-xProcessInfoPlistFile
-x/Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist282181471#282181471#0(0"0(0#0#38"/Users/ben/spiel/cocoa/Done/Info.plist4300882208#279"    cd /Users/ben/spiel/cocoa/Done    builtin-infoPlistUtility Info.plist -genpkginfo /Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app/Contents/Info.plist0#
-
-CProcessPCH /var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Done_Prefix-eirnntkulwqvzpaapmfacyrakrag/Done_Prefix.pch.gch Done_Prefix.pch normal i386 objective-c org.cocotron.1.0.windows.i386.gcc.default
-s282181473.347198
-e282181476.453917
-r1
-xProcessPCH
-x/var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Done_Prefix-eirnntkulwqvzpaapmfacyrakrag/Done_Prefix.pch.gch
-xDone_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xorg.cocotron.1.0.windows.i386.gcc.default
-lSLF07#2@26"Precompile Done_Prefix.pch282181473#282181476#0(0"0(0#0#43"/Users/ben/spiel/cocoa/Done/Done_Prefix.pch4300882208#1036"    cd /Users/ben/spiel/cocoa/Done    setenv LANG en_US.US-ASCII    /Developer/Cocotron/1.0/Windows/i386/gcc-4.3.1/bin/i386-mingw32msvc-gcc -x objective-c-header -fmessage-length=0 -pipe -Wno-trigraphs -O0 -Wreturn-type -fvisibility=hidden -F/Developer/Cocotron/1.0/Windows/i386/Frameworks -D__COCOTRON__ -DWINDOWS -fobjc-module-static-initializer -fconstant-string-class=NSConstantString -F/Users/ben/spiel/cocoa/Done/build/Windows/Debug -F/Developer/Cocotron/1.0/Windows/i386/Framework -F/Users/ben/spiel/cocoa/Done -F/Developer/Cocotron/1.0/Windows/i386/Frameworks -I/Users/ben/spiel/cocoa/Done/build/Windows/Debug/include "-I/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources/i386" "-I/Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Debug/Done Windows.build/DerivedSources" -c /Users/ben/spiel/cocoa/Done/Done_Prefix.pch -o /var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Done_Prefix-eirnntkulwqvzpaapmfacyrakrag/Done_Prefix.pch.gch0#
-
-CTouch /Users/ben/spiel/cocoa/Done/build/Windows/Debug/Done.app
-r0
-

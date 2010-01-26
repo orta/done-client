@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'Done' target in the 'Done' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+
+#define LOG_DEBUG_MODE
+
+#ifdef	LOG_DEBUG_MODE
+#define log(X,...)	NSLog(X,##__VA_ARGS__)
+#define trace(X,...)	NSLog(X,##__VA_ARGS__)
+#else
+#define log(X,...)	{ ; }
+#define trace(X,...)	{ ; }
+#endif

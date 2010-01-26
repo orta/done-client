@@ -1,0 +1,17 @@
+ceaca8423b9706f8ce7aa90a03ba7aa8 1215e62a4f619aca9fd639f8d8aae33b ffffffffffffffffffffffffffffffff 11327 /Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Release/Done Windows.build/Objects-normal/i386/ApplicationController.o
+ceaca8423b6a2804ce7aa90a03ba7002 e9f4009115e9ece8b663f238e57e3b7e ffffffffffffffffffffffffffffffff 6201 /Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Release/Done Windows.build/Objects-normal/i386/NSString_URLEncoding.o
+ceaca8423b6a6d7cce7aa90a03ba7570 15c7836c95fd04057ba2da3393535eb6 ffffffffffffffffffffffffffffffff 1213 /Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Release/Done Windows.build/Objects-normal/i386/AppController.o
+ceaca8423b698e39ce7aa90a03ba7356 0454b54991adac6a9ead3e7cdaad1644 ffffffffffffffffffffffffffffffff 7901 /Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Release/Done Windows.build/Objects-normal/i386/MessageController.o
+ceaca84271d11dc4ce7aa90a03ba73b2 b4569a0d54e702037098698633824cda ffffffffffffffffffffffffffffffff 6310 /Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Release/Done Windows.build/Objects-normal/i386/DoingController.o
+ceaca8427116593ace7aa90a03ba7590 05b742e0186f3ac86ed3d17f37b982c3 ffffffffffffffffffffffffffffffff 497 /Users/ben/spiel/cocoa/Done/build/Windows/Done.build/Release/Done Windows.build/Objects-normal/i386/main.o
+ffffffffffffffffffffffffffffffff 824a9e763ccd28bd7a9fc5176be345c9 ffffffffffffffffffffffffffffffff 102 /Users/ben/spiel/cocoa/Done/build/Windows/Release/Done.app
+5b9308731163acc8d2f1977670116933 b13709c09a6e3714ace63612f2012d1a ffffffffffffffffffffffffffffffff 0 /Users/ben/spiel/cocoa/Done/build/Windows/Release/Done.app/Contents/Windows/Done.exe
+000000004a7c8bf60000000000000152 ceaca8427116aab7ce7aa90a03ba7435 ffffffffffffffffffffffffffffffff 5255668 /var/folders/p7/p7LZ027aEmy9xzuvdXCwZU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Done_Prefix-acyaxjotsixbtjcnaewsdmydqqfq/Done_Prefix.pch.gch
+00000000000000000000000000000000 cb11ed233a789ba10e33f70162fea518 ffffffffffffffffffffffffffffffff 979 /Users/ben/spiel/cocoa/Done/build/Windows/Release/Done.app/Contents/Resources/cross.png
+00000000000000000000000000000000 500530fe973bfcf6cd07f9f4cc671da2 ffffffffffffffffffffffffffffffff 948 /Users/ben/spiel/cocoa/Done/build/Windows/Release/Done.app/Contents/Resources/tick.png
+00000000000000000000000000000000 a3e05011ce1a6d6bcdfa0285c5d33245 ffffffffffffffffffffffffffffffff 3997 /Users/ben/spiel/cocoa/Done/build/Windows/Release/Done.app/Contents/Resources/Hic2.wav
+00000000000000000000000000000000 8d5e3aefaf62526f1e19cb7bf1775fb5 ffffffffffffffffffffffffffffffff 88569 /Users/ben/spiel/cocoa/Done/build/Windows/Release/Done.app/Contents/Resources/Icon.icns
+000000004a7dca4c000000000002e98b f99fd42ae7513e080663734241d74ae7 ffffffffffffffffffffffffffffffff 41130 /Users/ben/spiel/cocoa/Done/build/Windows/Release/Done.app/Contents/Resources/English.lproj/MainMenu.nib
+000000004a7c787b000000000000005c 15bf8ff8895e7987caa204ccee76103d ffffffffffffffffffffffffffffffff 92 /Users/ben/spiel/cocoa/Done/build/Windows/Release/Done.app/Contents/Resources/English.lproj/InfoPlist.strings
+00000000000000000000000000000000 5eba443dedef28ff4b219679d702efb4 ffffffffffffffffffffffffffffffff 8 /Users/ben/spiel/cocoa/Done/build/Windows/Release/Done.app/Contents/PkgInfo
+00000000000000000000000000000000 5eba443dedef28ff4b219679d702efb4 ffffffffffffffffffffffffffffffff 763 /Users/ben/spiel/cocoa/Done/build/Windows/Release/Done.app/Contents/Info.plist
